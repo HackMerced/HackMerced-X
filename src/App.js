@@ -1,6 +1,6 @@
 
 import './App.css';
-import About from './Components/About.js';
+import Tracks from './Components/Tracks.js';
 import FAQ from './Components/FAQ.js'
 import NavBar from './Components/NavBar.js';
 
@@ -13,7 +13,7 @@ function App() {
           HackMerced VIII Page V.0.0
         </p>
       </header>
-      <About/>
+      <Tracks/>
       <FAQ/>
       <footer></footer>
     </div>
