@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Unbounded&display=swap');
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -19,34 +21,50 @@
   color: #61dafb;
 }
 .Tracks{
-  background: radial-gradient(#D801DC, #FF7676);
+  background: radial-gradient(50% 50% at 50% 50%, #D801DC 0%, #FF7676 100%);
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(6px);
+  
   color:white;
-  height: 50vh;
-  overflow: hidden;
+  height: 54vh;
+  width: 100vw;
+  position: relative;
 }
 .Tracks-Flex{
   justify-content: center;
   display: flex;
   text-align: center;
-  
 }
 .Track-Card{
-  background: linear-gradient(rgb(37, 18, 18), rgba(143, 26, 26));
-  opacity: 0.6;
+  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
   height: 35vh;
   width: 20vw;
-  border-radius: 10em;
-  margin: 5%;
   padding:2em;
-  padding-top: 5vh;
+  padding-top: 2vh;
   margin:1em;
+  z-index: -1;
+  opacity: .7;
+}
+.Track-Name{
+  color: #FFFFFF;
+  font-family: 'Unbounded';
 }
 .Track-Text{
   padding-top: 2vh;
-  position:relative;
-  color:white;
-  opacity: 1;
-  filter: alpha(opacity=100);
+  margin:1vw;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 50;
+  font-size: 0.9em;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Track-Logo{
+  filter: drop-shadow(0px 0px 40px #FF5E54);
+  padding-top: 5vh;
+  height: 7vh;
+  width: 7vw;
 }
 .FAQ{
   height: 50vh;
