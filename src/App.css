@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Unbounded:wght@300;400&display=swap');
+
 
 
 .App {
@@ -21,10 +23,52 @@
 .App-link {
   color: #61dafb;
 }
-
 .Tracks{
-  background-color: #dc9016;
-  height: 50vh;
+  background: radial-gradient(50% 50% at 50% 50%, #D801DC 0%, #FF7676 100%);
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(6px);
+  
+  color:white;
+  height: 54vh;
+  width: 100vw;
+  position: relative;
+}
+.Tracks-Flex{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.Track-Card{
+  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
+  height: 35vh;
+  width: 20vw;
+  padding:2em;
+  padding-top: 2vh;
+  margin:1em;
+  z-index: -1;
+  opacity: .7;
+}
+.Track-Name{
+  color: #FFFFFF;
+  font-family: 'Unbounded';
+}
+.Track-Text{
+  padding-top: 2vh;
+  margin:1vw;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 50;
+  font-size: 0.9em;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Track-Logo{
+  filter: drop-shadow(0px 0px 40px #FF5E54);
+  padding-top: 5vh;
+  height: 7vh;
+  width: 7vw;
+  
 }
 
 .FAQ{
