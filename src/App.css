@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Unbounded&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Unbounded:wght@300;400&display=swap');
+
+
 
 .App {
   text-align: center;
@@ -67,9 +70,67 @@
   width: 7vw;
   
 }
+
 .FAQ{
-  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5em 0;
+  background: linear-gradient(180deg, #FF5E5E 0%, #AD11BB 100%);
 }
+
+.FAQ-container{
+  width: 80vw;
+}
+
+.FAQ-grid{
+  margin: 0;
+}
+
+.FAQ-container .title{
+  font-family: 'Unbounded';
+  font-weight: normal;
+  width: fit-content;
+  margin-top: 0;
+  margin-bottom: 3em;
+  color: white;
+}
+
+.FAQ-accordion{
+  border: 2px solid #E0B8FF;
+  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);;
+}
+
+.FAQ-container .FAQ-accordion.MuiAccordion-root {
+  border-radius: 1.875em;
+}
+
+.FAQ-summary{
+  flex-direction: row-reverse;
+}
+
+.FAQ-summary .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  transform: rotate(90deg);
+}
+
+.accordion-title{
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+.accordion-description{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 0.9em;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
