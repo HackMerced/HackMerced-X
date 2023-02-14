@@ -10,10 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar/>
-        {/* <p>
-          HackMerced VIII Page V.0.0
-        </p> */}
       </header>
+      <MainPage/>
       <Tracks/>
       <FAQ/>
       <footer></footer>

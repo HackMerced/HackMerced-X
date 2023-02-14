@@ -1,4 +1,4 @@
-function NavBar() {
+function MainPage() {
     return (
       <div className="MainPage">
             <div className="Main-text">
@@ -10,4 +10,4 @@ function NavBar() {
     );
   }
   
-  export default NavBar;
+  export default MainPage;
