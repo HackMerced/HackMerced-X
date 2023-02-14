@@ -16,24 +16,36 @@
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
-  
   color:white;
-  height: 54vh;
+  height: 75vh;
   width: 100vw;
-  position: relative;
+  align-items: center;
+  text-align: center;
+  
+}
+.Tracks-title{
+  margin-top: 0;
+  font-family: 'Unbounded';
+  font-weight: normal;
+  margin-bottom: 2em;
+  padding-top: 3em;
+  left: 10rem;
+  position: absolute;
+  text-align: left;
 }
 .Tracks-Flex{
   justify-content: center;
   display: flex;
-  text-align: center;
+  
 }
 .Track-Card{
   background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
   height: 35vh;
   width: 20vw;
   padding:2em;
-  padding-top: 2vh;
+  padding-top: 5vh;
   margin:1em;
+  margin-top: 20vh;
   opacity: .7;
 }
 .Track-Name{
@@ -135,7 +147,7 @@
   justify-content: space-between;
   align-content: center;
   padding-bottom:3rem;
-  background: linear-gradient(107.08deg, rgba(60, 26, 69, 0.7) 2.64%, rgba(67, 25, 92, 0.7) 135.38%);
+  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
   /* background-color: red; */
 }
 .nav-items{
@@ -182,16 +194,23 @@
 
 .MainPage{
   background-color: #B61255;
+  background: radial-gradient(89.01% 89.01% at 72.01% 35.06%, #D83F0E 0%, #AD066A 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-blend-mode: overlay;
+  mix-blend-mode: normal;
   position:relative;
   display: flex;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   font-size: calc(1em + 2vmin);
+  font-family: 'Unbounded';
+ 
 }
 .Main-text{
   position: absolute;
+  text-align: left;
   left:10rem;
   top:10rem;
+  filter: drop-shadow(0px 0px 40px #FF5E54);
 }
 .Main-title{
   color:#FFFFFF;
@@ -199,14 +218,26 @@
 .Main-subtitle{
   color:#FFFFFF;
 }
+.Main-sub2{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
 .registerButton2{
+  font-family: 'Unbounded';
   background-color: #FFFFFF;
   border: 0.18rem solid black;
   border-radius: 100px;
-
+  color: #B61255;
   width: 15rem;
   height:2rem;
   transition-duration: .4s;
+  border: none;
 }
 .registerButton2:hover{
   background-color: #AD0624;
@@ -214,4 +245,5 @@
   color: #FFFFFF;
   cursor: pointer;
   transform: translate(0.1rem, -0.1rem);
+  border: none;
 }

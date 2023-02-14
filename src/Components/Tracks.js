@@ -3,27 +3,27 @@ import Support from '../Assets/support_1.svg'
 function Tracks() {
     return (
       <div className="Tracks">
-           <h1 style={{marginTop: '0px'}}>Tracks</h1>
+           <h2 className ="Tracks-title">tracks</h2>
            <div className="Tracks-Flex">
             <Card style={{borderRadius: '30px'}} className='Track-Card'>
               <img className='Track-Logo' src={Support} alt="Support logo"/>
               <h1 className="Track-Name">Coming soon</h1>
                 <div className='Track-Text'>
-                  Stay tuned!
+                Stay tuned to learn more about our prize tracks for this year.
                 </div>
               </Card>
               <Card style={{borderRadius: '30px'}} className='Track-Card'>
               <img className='Track-Logo' src={Support} alt="Support logo"/>
               <h1 className="Track-Name">Coming soon</h1>
                 <div className='Track-Text'>
-                Stay Tuned!
+                Stay tuned to learn more about our prize tracks for this year.
                 </div>
               </Card>
               <Card style={{borderRadius: '30px'}} className='Track-Card'>
               <img className='Track-Logo' src={Support} alt="Support logo"/>
               <h1 className="Track-Name">Coming soon</h1>
                 <div className='Track-Text'>
-                Stay Tuned!
+                Stay tuned to learn more about our prize tracks for this year.
                 </div>
               </Card>
            </div>
