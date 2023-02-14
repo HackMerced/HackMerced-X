@@ -14,6 +14,10 @@ const FAQAccordion = (props) => {
       <AccordionDetails>
         <p className="accordion-description">
           {props.description}
+        
+        <a className="accordion-link" href={props.link}>
+          {props.link}
+        </a>
         </p>
       </AccordionDetails>
     </Accordion>
@@ -54,7 +58,8 @@ function FAQ() {
             <FAQAccordion title='Can I apply to judge or mentor?' description='We will be opening mentor applications in the near future for interested parties. If you would like to judge a track, please consider sponsoring us by contacting Intiser Aziz at iaziz2@ucmerced.edu.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='I have more questions!' description='Please join the HackMerced Community Discord server! If you have personal questions, feel free to open a ticket with us there.'/>
+          <FAQAccordion title='I have more questions!' description='Please join the HackMerced Community Discord server! If you have personal questions, feel free to open a ticket with us there. Please join our Discord at ' link='https://discord.gg/E5GsRt3jPs'>
+          </FAQAccordion>
           </Grid>
 
         </Grid>
