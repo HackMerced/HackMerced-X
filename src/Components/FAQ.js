@@ -22,7 +22,7 @@ const FAQAccordion = (props) => {
 
 function FAQ() {
   return (
-    <div className="FAQ">
+    <div className="FAQ" id="faq">
       <div className="FAQ-container">
         <h2 className="title">frequently asked questions</h2>
         <Grid className="FAQ-grid" container spacing={2} columns={{ xs: 12 }}>

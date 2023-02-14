@@ -2,9 +2,9 @@ function NavBar() {
     return (
       <div className="NavBar">
         <ul className="nav-items">
-          <li><button className="button">tracks</button></li>
-          <li><button className="button">faq</button></li>
-          <li><button className="registerButton">register</button></li>
+          <li><a  href="#tracks"><button className="button">tracks</button></a></li>
+          <li><a href="#faq"><button className="button">faq</button></a></li>
+          <li><a href="https://forms.gle/pmMz4zeeEsMD3Pc1A"><button className="registerButton">register</button></a></li>
         </ul>
             
       </div>
