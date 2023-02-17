@@ -210,7 +210,7 @@
   height: 100vh;
   font-size: calc(1em + 2vmin);
   font-family: 'Unbounded';
-  
+  overflow-x:hidden;
  
 }
 .Main-text{
