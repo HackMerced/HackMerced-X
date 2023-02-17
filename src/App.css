@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Unbounded:wght@300;400&display=swap');
 
 
-
+.html{
+  overflow-y: hidden;
+}
 .App {
   text-align: center;
   min-height: 100vh;
@@ -221,10 +223,7 @@
   min-width: 100vw;
   max-height: 100vh;
   object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  overflow-y: hidden;
 }
 .Main-title{
   color:#FFFFFF;
@@ -260,4 +259,52 @@
   cursor: pointer;
   transform: translate(0.1rem, -0.1rem);
   border: none;
+}
+
+/*MOBILE VIEWPORTS*/
+@media screen and (min-width: 300px) and (max-width: 880px) {
+  .MainPage{
+    overflow-y: hidden;
+    display: block;
+  }
+  .Main-text{
+    left:auto;
+    padding-left: 1em;
+    font-size: smaller;
+  }
+  .nav-items{
+    position: unset;
+  }
+  .Tracks-Flex{
+    display: inline-block;
+    
+  }
+  .Track-Card{
+    width: auto;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .Tracks{
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .Tracks-title{
+    position: inherit;
+    text-align: center;
+  }
+  .FAQ-accordion{
+    position: relative;
+    flex-direction: column;
+  }
+  .MuiGrid2-root.FAQ-grid{
+    display: block;
+    columns: 1;
+    gap: 0rem;
+   
+  }
+  .FAQ-accordion{
+    width: 80vw;
+  }
+
 }
