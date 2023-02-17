@@ -267,13 +267,20 @@
     overflow-y: hidden;
     display: block;
   }
+  .Main-video{
+    z-index: -2;
+  }
   .Main-text{
     left:auto;
     padding-left: 1em;
     font-size: smaller;
+    z-index: 3;
   }
   .nav-items{
-    position: unset;
+    left: 0;
+  }
+  .nav-items > li{
+    margin-right: 1.5em;
   }
   .Tracks-Flex{
     display: inline-block;
