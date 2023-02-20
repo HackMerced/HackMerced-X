@@ -33,6 +33,8 @@
   margin-bottom: 2em;
   padding-top: 3em;
   text-align: left;
+  position: absolute;
+  padding-left: 10vw;
 }
 .Tracks-Flex{
   justify-content: center;
