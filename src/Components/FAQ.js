@@ -55,13 +55,24 @@ function FAQ() {
             <FAQAccordion title='Who can attend?' description='All students are eligible to participate. You do not need to attend UC Merced.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='Can I apply to judge or mentor?' description='We will be opening mentor applications in the near future for interested parties. If you would like to judge a track, please consider sponsoring us by contacting Intiser Aziz at iaziz2@ucmerced.edu.'/>
+            <FAQAccordion title='Where can I sleep?' description='HackMerced will have a “quiet room” where you can sleep, relax, or enjoy some quiet. We recommend that you bring your own sleeping bag. If you are local to Merced, you of course are not obligated to stay on campus for the duration of the event.'/>
+          </Grid>
+          <Grid xs={6}>
+            <FAQAccordion title='Where can I park?' description={<>'For a parking map resource, please see {<a href = "https://www.google.com/maps/d/u/0/edit?mid=1WERa2Y1r-rVHjKGyWQaXwaQ7C9iN7JU&usp=sharing">here</a>}. Parking on campus at UC Merced is free on weekends. On Friday, parking is free after 6 PM in the North Bowl, Scholars and Bellevue Lot - Green Zone lots. Parking is free after 8 PM in the Le Grand Lot, Library Lots 1 and 2 and Bellevue Lot - Gold Zone lots. Note that parking in the University Lot, Calaveras Lot, H Zones and specially marked spaces are prohibited at all times.'</>}/>
+          </Grid>
+          <Grid xs={6}>
+            <FAQAccordion title='Can I participate if I’m in high school?' description='Yes! However, if you are under the age of 18 you must sign the waiver in our registration form with a parent or guardian. Additionally, you are not permitted to sleep in campus buildings overnight (we advise leaving and returning to campus during the day).'/>
+          </Grid>
+          <Grid xs={6}>
+            <FAQAccordion title='How do I win free swag?' description='This year, HackMerced is proud to present HackerPass, an RFID-based attendance tracking system. When you participate in workshops or activities, simply scan the badge you obtain at check-in to earn points which can be redeemed for swag.'/>
+          </Grid>
+          <Grid xs={6}>
+            <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://forms.gle/JbsZTo9VYRxuRrJQA">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Intiser Aziz at iaziz2@ucmerced.edu.</>}/>
           </Grid>
           <Grid xs={6}>
           <FAQAccordion title='I have more questions!' description='Please join the HackMerced Community Discord server! If you have personal questions, feel free to open a ticket with us there. Please join our Discord at ' link='https://discord.gg/E5GsRt3jPs'>
           </FAQAccordion>
           </Grid>
-
         </Grid>
       </div>
     </div>
