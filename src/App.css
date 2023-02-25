@@ -169,6 +169,13 @@ a {
   right: 1rem;
   margin-top: 0.8rem;
 }
+
+.nav-items .button, .nav-items .registerButton{
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 1em;
+}
+
 .nav-items > li{
   margin-right: 3rem;
   list-style-type: none;
