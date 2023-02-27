@@ -55,9 +55,6 @@ function FAQ() {
             <FAQAccordion title='Who can attend?' description='All students are eligible to participate. You do not need to attend UC Merced.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='Where can I sleep?' description='HackMerced will have a “quiet room” where you can sleep, relax, or enjoy some quiet. We recommend that you bring your own sleeping bag. If you are local to Merced, you of course are not obligated to stay on campus for the duration of the event.'/>
-          </Grid>
-          <Grid xs={6}>
             <FAQAccordion title='Where can I park?' description={<>'For a parking map resource, please see {<a href = "https://www.google.com/maps/d/u/0/edit?mid=1WERa2Y1r-rVHjKGyWQaXwaQ7C9iN7JU&usp=sharing">here</a>}. Parking on campus at UC Merced is free on weekends. On Friday, parking is free after 6 PM in the North Bowl, Scholars and Bellevue Lot - Green Zone lots. Parking is free after 8 PM in the Le Grand Lot, Library Lots 1 and 2 and Bellevue Lot - Gold Zone lots. Note that parking in the University Lot, Calaveras Lot, H Zones and specially marked spaces are prohibited at all times.'</>}/>
           </Grid>
           <Grid xs={6}>
