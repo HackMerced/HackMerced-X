@@ -302,7 +302,8 @@ a {
     left: 0;
   }
   .nav-items > li{
-    margin-right: 1.5em;
+    margin-right: 1em;
+    min-width:1rem;
   }
   .Tracks-Flex{
     display: inline-block;
