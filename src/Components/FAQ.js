@@ -37,7 +37,7 @@ function FAQ() {
             <FAQAccordion title='Do I need to know how to code?' description='No! HackMerced will provide learning resources, workshops, activities, and more. You do not have to code to contribute to a team.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='I’ve never participated in a hackathon before. Can I participate?' description='Yes! HackMerced welcomes people of all experience levels. We will also have beginner friendly workshops, events, and prize categories for those unacquainted with hackathons.'/>
+            <FAQAccordion title='I’ve never participated in a hackathon before. Can I participate?' description='Yes! HackMerced welcomes people of all experience levels. We will also have beginner-friendly workshops, events, and prize categories for those unacquainted with hackathons.'/>
           </Grid>
           <Grid xs={6}>
             <FAQAccordion title='Will HackMerced VIII be in-person or virtual?' description='HackMerced VIII will be a fully in-person event! It will take place at the University of California, Merced. Workshop resources will also be shared in our Discord server.'/>
@@ -64,7 +64,7 @@ function FAQ() {
             <FAQAccordion title='Can I participate if I’m in high school?' description='Yes! However, if you are under the age of 18 you must sign the waiver in our registration form with a parent or guardian. Additionally, you are not permitted to sleep in campus buildings overnight (we advise leaving and returning to campus during the day).'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='How do I win free swag?' description='This year, HackMerced is proud to present HackerPass, an RFID-based attendance tracking system. When you participate in workshops or activities, simply scan the badge you obtain at check-in to earn points which can be redeemed for swag.'/>
+            <FAQAccordion title='How do I win free swag?' description='This year, HackMerced is proud to present HackerPass, an RFID-based attendance tracking system. When you participate in workshops or activities, simply scan the badge you obtain at check-in to earn points that can be redeemed for swag.'/>
           </Grid>
           <Grid xs={6}>
             <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://forms.gle/JbsZTo9VYRxuRrJQA">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Intiser Aziz at iaziz2@ucmerced.edu.</>}/>
