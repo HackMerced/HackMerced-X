@@ -4,6 +4,7 @@ import Tracks from './Components/Tracks.js';
 import FAQ from './Components/FAQ.js'
 import NavBar from './Components/NavBar.js';
 import MainPage from './Components/MainPage.js';
+import Footer from './Components/Footer.js';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <MainPage/>
       <Tracks/>
       <FAQ/>
-      <footer></footer>
+      <footer><Footer/></footer>
     </div>
   );
 }
