@@ -78,8 +78,7 @@ a {
   
 }
 .Sponsors-Logo{
-  width: 1178px;
-  height: 494px;
+  width: 50vw;
   left: 131px;
   padding-top: 5em;
 }
@@ -412,5 +411,6 @@ a {
   .Sponsors-Logo{ 
     padding-top: 5vh;
     width: 80vw;
+    height: 494px;
   }
 }
