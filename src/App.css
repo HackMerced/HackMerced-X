@@ -77,6 +77,30 @@ a {
   width: 7vw;
   
 }
+.Sponsors-Logo{
+  width: 1178px;
+  height: 494px;
+  left: 131px;
+  padding-top: 5em;
+}
+.Sponsors-Description{
+  left: 10vw;
+  position: absolute;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-right: 10vw;
+  text-align: left;
+}
+.Sponsors-title{
+  margin-top: 0;
+  font-family: 'Unbounded';
+  font-weight: normal;
+  padding-top: 3em;
+  text-align: left;
+  padding-left: 10vw;
+}
 
 .FAQ{
   display: flex;
@@ -384,5 +408,9 @@ a {
   }
   .Footer-description{
     padding-left: 2em;
+  }
+  .Sponsors-Logo{ 
+    padding-top: 5vh;
+    width: 80vw;
   }
 }
