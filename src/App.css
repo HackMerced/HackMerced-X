@@ -366,10 +366,12 @@ a {
   }
   .nav-items{
     left: 0;
+    padding-left: 8vw;
   }
   .nav-items > li{
-    margin-right: 1em;
-    min-width:1rem;
+    margin-right: 0.5em;
+    min-width:0.5rem;
+    font-size: small;
   }
   .Tracks-Flex{
     display: inline-block;
