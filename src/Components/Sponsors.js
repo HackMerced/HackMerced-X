@@ -1,4 +1,4 @@
-import SponsorLogo from '../Assets/sponsor logos.svg';
+import SponsorLogo from '../Assets/sponsor_logos.png';
 
 function Sponsors() {
     return (
