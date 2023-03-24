@@ -284,13 +284,36 @@ a {
 }
 .Main-sub2{
   font-family: 'DM Sans';
-  font-style: normal;
+  font-style: small;
   font-weight: 500;
   font-size: 24px;
   line-height: 31px;
   display: flex;
   align-items: center;
   color: #FFFFFF;
+}
+.Main-footer{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  
+}
+.Main-footerlink{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #dbbaf0;
+  padding-left: 5px;
+  text-decoration: wavy;
 }
 .registerButton2{
   font-family: 'Unbounded';
