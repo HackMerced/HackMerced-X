@@ -10,11 +10,11 @@ function MainPage() {
               src={Video}/>
 
             <div className="Main-text">
-                <h1 className="Main-title">hackmerced viii</h1>
-                <p className="Main-subtitle">march 3-5 2023 @ uc merced</p>
-                <p className="Main-sub2">Join us for the largest hackathon in the San Joaquin Valley.</p>
-                <a href="https://forms.gle/pmMz4zeeEsMD3Pc1A">
-                  <button className="registerButton2">REGISTER NOW</button>
+                <h1 className="Main-title">hackmerced ix</h1>
+                <p className="Main-subtitle">Now accepting new volunteers!</p>
+                <p className="Main-sub2">applications open march 24 - april 7, 2023</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEoxNV8R0obJpRwBn70Pcdkx-HDzt3YkSzPcIEe427TKFu_w/viewform?usp=sf_link">
+                  <button className="registerButton2">APPLY NOW</button>
                 </a>
                
             </div>
