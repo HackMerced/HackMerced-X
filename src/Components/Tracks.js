@@ -5,7 +5,7 @@ import Business from '../Assets/bus.svg';
 function Tracks() {
     return (
       <div className="Tracks" id="tracks">
-           <h2 className ="Tracks-title">tracks</h2>
+           <h2 className ="Tracks-title">previous tracks</h2>
            <div className="Tracks-Flex">
             <Card style={{borderRadius: '30px'}} className='Track-Card'>
               <img className='Track-Logo' src={Health} alt="Health logo"/>
