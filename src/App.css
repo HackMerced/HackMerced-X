@@ -315,9 +315,23 @@ a {
   padding-left: 5px;
   text-decoration: wavy;
 }
+.emailEmoji{
+  padding-left: 0.4rem;
+  filter: grayscale(100%);
+}
+.Main-footerlink:hover{
+  color: #FF7676;
+  transition-duration: 0.4s;
+}
+.Main-footerlink:hover .emailEmoji{
+  transition-duration: 0.4s;
+  transform: rotateY(360deg) scale(150%);
+  filter: grayscale(0%);
+}
+
 .registerButton2{
   font-family: 'Unbounded';
-  background-color: #FFFFFF;
+  background-color: #FFFFFF; 
   border: 0.18rem solid black;
   border-radius: 100px;
   color: #B61255;
@@ -327,12 +341,46 @@ a {
   border: none;
 }
 .registerButton2:hover{
-  background-color: #AD0624;
+  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
   border: 0.18rem solid white;
   color: #FFFFFF;
   cursor: pointer;
   transform: translate(0.1rem, -0.1rem);
   border: none;
+  filter: saturate(200%);
+}
+
+#star{
+  display: none;
+  color: white;
+  filter:blur(0.1rem);
+  position: absolute;
+  font-size: .5em;
+  top: 16.8rem;
+}
+@keyframes move-stars {
+  0% {
+      transform: translateX(0);
+  }
+  50% {
+      transform: translateX(14rem);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+.registerButton2:hover ~ #star{
+  display:block;
+}
+.registerButton2:hover ~ .star1{
+  animation: move-stars 2s ease-in-out infinite;
+  display:block;
+}
+.registerButton2:hover ~ .star2{
+  animation: move-stars 1.5s ease-in-out infinite;
+}
+.registerButton2:hover ~ .star3{
+  animation: move-stars 1s ease-in-out infinite;
 }
 .Footer-Comp{
   position: relative;
