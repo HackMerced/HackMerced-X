@@ -351,6 +351,7 @@ a {
 }
 
 #star{
+  display: none;
   color: white;
   filter:blur(0.1rem);
   position: absolute;
@@ -368,8 +369,12 @@ a {
       transform: translateX(0);
   }
 }
+.registerButton2:hover ~ #star{
+  display:block;
+}
 .registerButton2:hover ~ .star1{
   animation: move-stars 2s ease-in-out infinite;
+  display:block;
 }
 .registerButton2:hover ~ .star2{
   animation: move-stars 1.5s ease-in-out infinite;
