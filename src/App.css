@@ -278,6 +278,12 @@ a {
 }
 .Main-title{
   color:#FFFFFF;
+  transition-duration: 0.4s;
+}
+.Main-title:hover{
+  transition-duration: 0.4s;
+  transform: scale(103%);
+  filter: drop-shadow(0px 0px 10px #FF5E54) saturate(150%);
 }
 .Main-subtitle{
   color:#FFFFFF;
