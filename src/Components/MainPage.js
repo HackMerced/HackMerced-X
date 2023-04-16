@@ -19,7 +19,7 @@ function MainPage() {
                   <p className="star1" id="star">★</p><p className="star2" id="star">★</p><p className="star3" id="star">★</p>
           
                 </a>
-                <p className="Main-footer">Have questions? Email Porfirio Montoya at  <a className="Main-footerlink" href="mailto:email@ucmerced.edu"> pmontoya2@ucmerced.edu <p className="emailEmoji">📧</p></a></p>
+                <p className="Main-footer">Have questions? Email Porfirio Montoya at  <a className="Main-footerlink" href="mailto:pmontoya2@ucmerced.edu"> pmontoya2@ucmerced.edu <p className="emailEmoji">📧</p></a></p>
                 
             </div>
       </div>

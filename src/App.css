@@ -435,6 +435,14 @@ a {
     font-size: smaller;
     z-index: 3;
   }
+  .Main-footer{
+    display: block;
+    padding-right: 1rem;
+  }
+  .Main-footerlink{
+    margin: -1rem;
+    padding-left: 1rem;
+  }
   .nav-items{
     left: 0;
     padding-left: 8vw;
