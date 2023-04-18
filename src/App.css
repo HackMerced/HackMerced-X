@@ -270,6 +270,19 @@ a {
   filter: drop-shadow(0px 0px 40px #FF5E54);
   z-index: 3;
 }
+.Main-text-background{
+  color: none;
+  position: absolute;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(143, 26, 26) 0%, #FF7676 100%);
+  border-radius: 5%;
+  /* width: 45rem; */
+  width: 115%;
+  height: 100%;
+  /* height: 26rem; */
+  left:-3rem;
+  filter: opacity(50%) blur(5px);
+  z-index: -3;
+}
 .Main-video{
   min-width: 100vw;
   max-height: 100vh;
@@ -281,7 +294,7 @@ a {
   transition-duration: 0.4s;
 }
 .Main-title:hover{
-  transition-duration: 0.4s;
+  transition-duration: 1s;
   transform: scale(103%);
   filter: drop-shadow(0px 0px 10px #FF5E54) saturate(150%);
 }
@@ -326,7 +339,7 @@ a {
   filter: grayscale(100%);
 }
 .Main-footerlink:hover{
-  color: #FF7676;
+  color: #B01F69;
   transition-duration: 0.4s;
 }
 .Main-footerlink:hover .emailEmoji{
@@ -390,6 +403,7 @@ a {
 }
 .Footer-Comp{
   position: relative;
+  padding-bottom: 2rem;
   color: #E0B8FF;
   font-family: 'DM Sans';
   font-style: normal;
@@ -440,6 +454,10 @@ a {
     padding-left: 1em;
     font-size: smaller;
     z-index: 3;
+    transform: scale(80%);
+  }
+  .title-flair{
+    display: block;
   }
   .Main-footer{
     display: block;
@@ -448,6 +466,10 @@ a {
   .Main-footerlink{
     margin: -1rem;
     padding-left: 1rem;
+  }
+  .Main-text-background{
+    margin-left: 1rem;
+
   }
   .nav-items{
     left: 0;

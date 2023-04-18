@@ -10,6 +10,7 @@ function MainPage() {
               src={Video}/>
 
             <div className="Main-text">
+                <div className="Main-text-background"></div>
                 <h1 className="Main-title">hackmerced</h1>
                 <p className="Main-subtitle">Now accepting new volunteers!</p>
                 <p className="Main-sub2">applications close on april 28, 2023</p>
