@@ -13,7 +13,6 @@ function MainPage() {
                 <div className="Main-text-background"></div>
                 <h1 className="Main-title">hackmerced</h1>
                 <p className="Main-subtitle">Now accepting new volunteers!</p>
-                <p className="Main-sub2">applications close on april 28, 2023</p>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEoxNV8R0obJpRwBn70Pcdkx-HDzt3YkSzPcIEe427TKFu_w/viewform?usp=sf_link">
                   <button className="registerButton2">APPLY NOW</button>
                   
