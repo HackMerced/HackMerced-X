@@ -432,11 +432,12 @@ a {
  padding-left: 1.5em;
   text-align: left;
 }
+/*TEAM SECTION*/
 .Team-container{
-  height: 50vh;
+  height: max-content;
 }
 .Team-container .title{
-    height: 20vh;
+    height: 10vh;
     font-family: 'Unbounded';
     font-weight: normal;
     width: fit-content;
@@ -448,7 +449,6 @@ a {
   
 }
 .Team-Flex{
-  justify-content: space-between;
   display: flex;
   align-items: flex-start;
   flex-direction:row;
