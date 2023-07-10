@@ -3,7 +3,9 @@ import Jet from '../Assets/Team/jet.jpeg';
 import Porfi from '../Assets/Team/porfi.jpeg';
 import Alisson from '../Assets/Team/alisson.jpeg';
 import David from '../Assets/Team/david.JPEG';
+import Ivan from '../Assets/Team/ivan.jpg'
 import Princess from '../Assets/Team/princess.jpeg';
+
 
 function Team(){
     return(
@@ -28,6 +30,10 @@ function Team(){
                             <img className="Team-Img" src={Jet} alt="Avatar"/>
                             <div className="Team-Name">Jet Lin</div>
                         </Grid>
+
+                       <Grid item xs={3} className="Team-individual">
+                            <img className="Team-Img" src={Ivan} alt="Avatar"/>
+                            <div className="Team-Name">Ivan Piceno</div>
                         <Grid item xs={3} className="Team-individual">
                             <img className="Team-Img" src={Princess} alt="Avatar"/>
                             <div className="Team-Name">Princess Thomas</div>
