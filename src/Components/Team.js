@@ -34,6 +34,7 @@ function Team(){
                        <Grid item xs={3} className="Team-individual">
                             <img className="Team-Img" src={Ivan} alt="Avatar"/>
                             <div className="Team-Name">Ivan Piceno</div>
+                        </Grid>
                         <Grid item xs={3} className="Team-individual">
                             <img className="Team-Img" src={Princess} alt="Avatar"/>
                             <div className="Team-Name">Princess Thomas</div>
@@ -42,5 +43,4 @@ function Team(){
             </div>
         </div>
     );
-
 }export default Team;
