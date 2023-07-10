@@ -435,6 +435,10 @@ a {
 /*TEAM SECTION*/
 .Team-container{
   height: max-content;
+  width: 80vw;
+}
+.title{
+  text-align: left;
 }
 .Team-container .title{
     height: 10vh;
@@ -550,8 +554,6 @@ a {
   }
   .Track-Card{
     width: auto;
-    padding-top: 0;
-    margin-top: 0;
   }
   .Tracks{
     height: auto;
@@ -560,7 +562,7 @@ a {
     z-index: 3;
     position: relative;
   }
-  .Tracks-title{
+  .Tracks-title .title{
     text-align: left;
     padding-left:1.5em;
     position:initial;

@@ -15,7 +15,7 @@ function Team(){
             <div className="Team-container">
                 <h2 className="title">our team</h2>
                 <Grid container spacing={8} className="Team-Flex"
-                    justifyContent="space-between">
+                    justifyContent="start">
                         <Grid item xs={3} className="Team-individual">
                             <img className="Team-Img" src={Porfi} alt="Avatar"/>
                             <div className="Team-Name">Porfirio Montoya</div> 
