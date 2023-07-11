@@ -9,45 +9,35 @@ import Princess from '../Assets/Team/princess.jpeg';
 
 
 
-function Team(){
-    return(
+function Team() {
+    const teamMembers = [
+        { name: 'Porfirio Montoya', imgSrc: Porfi },
+        { name: 'Alisson Ross', imgSrc: Alisson },
+        { name: 'David Choi', imgSrc: David },
+        { name: 'Jet Lin', imgSrc: Jet },
+        { name: 'Mohamed Hasan', imgSrc: Mo },
+        { name: 'Ivan Piceno', imgSrc: Ivan },
+        { name: 'Princess Thomas', imgSrc: Princess },
+    ]
+
+    return (
         <div className='Team'>
             <div className="Team-container">
                 <h2 className="title">our team</h2>
                 <Grid container spacing={8} className="Team-Flex"
                     justifyContent="start">
-                        <Grid item xs={3} className="Team-individual">
-                            <img className="Team-Img" src={Porfi} alt="Avatar"/>
-                            <div className="Team-Name">Porfirio Montoya</div> 
-                        </Grid>
-                        <Grid item xs={3} className="Team-individual">
-                            <img className="Team-Img" src={Alisson} alt="Avatar"/>
-                            <div className="Team-Name">Alisson Ross</div>
-                        </Grid>
-                        <Grid item xs={3} className="Team-individual">
-                            <img className="Team-Img" src={David} alt="Avatar"/>
-                            <div className="Team-Name">David Choi</div>
-                       </Grid>
-                       <Grid item xs={3} className="Team-individual">
-                            <img className="Team-Img" src={Jet} alt="Avatar"/>
-                            <div className="Team-Name">Jet Lin</div>
-                        </Grid>
 
-                        <Grid item xs={3} className="Team-individual">
-                            <img className="Team-Img" src={Mo} alt="Avatar"/>
-                            <div className="Team-Name">Mohamed Hasan</div>
-                        </Grid>
+                    {teamMembers.map((teamMember, index) => {
+                        return (
+                            <Grid item xs={3} className="Team-individual" key={index}>
+                                <img className="Team-Img" src={teamMember.imgSrc} alt="Avatar" />
+                                <div className="Team-Name">{teamMember.name}</div>
+                            </Grid>
+                        )
+                    })}
 
-                       <Grid item xs={3} className="Team-individual">
-                            <img className="Team-Img" src={Ivan} alt="Avatar"/>
-                            <div className="Team-Name">Ivan Piceno</div>
-                        </Grid>
-                        <Grid item xs={3} className="Team-individual">
-                            <img className="Team-Img" src={Princess} alt="Avatar"/>
-                            <div className="Team-Name">Princess Thomas</div>
-                        </Grid>
                 </Grid>
             </div>
         </div>
     );
-}export default Team;
+} export default Team;
