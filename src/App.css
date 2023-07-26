@@ -37,15 +37,15 @@ a {
   font-family: 'Unbounded';
   font-weight: normal;
   margin-bottom: 2em;
-  padding-top: 3em;
+  margin-left: 11%;
+  padding-top: 3.5em;
   text-align: left;
   position: absolute;
-  padding-left: 10vw;
 }
 .Tracks-Flex{
   justify-content: center;
   display: flex;
-  
+  padding-top: 1.5rem;
 }
 .Track-Card{
   background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
@@ -446,6 +446,8 @@ a {
     font-weight: normal;
     width: fit-content;
     margin-top: 0;
+    position: relative;
+    left: 1.5rem;
     color: white;
 }
 .Team-individual{
@@ -526,7 +528,8 @@ a {
   .Team-container .title{
     height: 0;
     padding-bottom: 3em;
-    padding-left: 1.5em;
+    padding-left: 0;
+    left: 0;
   }
   .Team-Img{
     overflow: visible;
@@ -566,6 +569,9 @@ a {
     text-align: left;
     padding-left:1.5em;
     position:initial;
+  }
+  .Tracks-title {
+    margin-left: 6%;
   }
   .FAQ-accordion{
     position: relative;
