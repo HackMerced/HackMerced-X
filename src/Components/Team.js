@@ -21,7 +21,7 @@ function Team() {
     ]
 
     return (
-        <div className='Team'>
+        <div className='Team' id="team">
             <div className="Team-container">
                 <h2 className="title">our team</h2>
                 <Grid container spacing={8} className="Team-Flex"
