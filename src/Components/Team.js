@@ -6,8 +6,7 @@ import David from '../Assets/Team/david.JPEG';
 import Mo from '../Assets/Team/mo.jpeg';
 import Ivan from '../Assets/Team/ivan.jpg'
 import Princess from '../Assets/Team/princess.jpeg';
-
-
+import Emi from '../Assets/Team/emi.jpg'
 
 function Team() {
     const teamMembers = [
@@ -18,6 +17,7 @@ function Team() {
         { name: 'Mohamed Hasan', imgSrc: Mo },
         { name: 'Ivan Piceno', imgSrc: Ivan },
         { name: 'Princess Thomas', imgSrc: Princess },
+        { name: 'Emi Rueth', imgSrc: Emi }
     ]
 
     return (
