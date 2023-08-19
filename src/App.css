@@ -449,6 +449,9 @@ a {
     left: 1.5rem;
     color: white;
 }
+.MuiGrid-root.MuiGrid-item{
+  padding-left: none;
+}
 .Team-individual{
   padding: 1em;
   
