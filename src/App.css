@@ -56,6 +56,8 @@ a {
   margin-bottom: 5vh;
   margin-top: 20vh;
   opacity: .7;
+
+  position: relative;
 }
 .Track-Name{
   color: #FFFFFF;
@@ -434,8 +436,10 @@ a {
 }
 /*TEAM SECTION*/
 .Team-container{
-  height: max-content;
+  height: 70vh;
   width: 80vw;
+  top: 4rem;
+  position: relative;
 }
 .title{
   text-align: left;
@@ -445,8 +449,9 @@ a {
     font-family: 'Unbounded';
     font-weight: normal;
     width: fit-content;
-    margin-top: 0;
-    position: relative;
+    margin-top: 0rem;
+    position: absolute;
+    top: -3.5rem;
     left: 1.5rem;
     color: white;
 }
@@ -571,7 +576,7 @@ a {
     position:initial;
   }
   .Tracks-title {
-    margin-left: 6%;
+    margin-left: 7%;
   }
   .FAQ-accordion{
     position: relative;
