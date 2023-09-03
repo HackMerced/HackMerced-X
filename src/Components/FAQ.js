@@ -40,7 +40,7 @@ function FAQ() {
             <FAQAccordion title='I’ve never participated in a hackathon before. Can I participate?' description='Yes! HackMerced welcomes people of all experience levels. We will also have beginner-friendly workshops, events, and prize categories for those unacquainted with hackathons.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='Will HackMerced VIII be in-person or virtual?' description='HackMerced VIII will be a fully in-person event! It will take place at the University of California, Merced. Workshop resources will also be shared in our Discord server.'/>
+            <FAQAccordion title='Will HackMerced VIII be in-person or virtual?' description='HackMerced IX will be a fully in-person event! It will take place at the University of California, Merced. Workshop resources will also be shared in our Discord server.'/>
           </Grid>
           <Grid xs={6}>
             <FAQAccordion title='How many people can be on a team?' description='Teams can consist of 1-4 people.'/>
