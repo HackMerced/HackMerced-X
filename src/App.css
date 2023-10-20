@@ -434,7 +434,7 @@ a {
 }
 /*TEAM SECTION*/
 .Team-container{
-  height: 70vh;
+  min-height: 70vh;
   width: 80vw;
   top: 4rem;
   position: relative;
