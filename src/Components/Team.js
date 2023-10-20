@@ -2,7 +2,6 @@ import { Grid } from "@mui/material";
 import Jet from '../Assets/Team/jet.jpeg';
 import Porfi from '../Assets/Team/porfi.jpeg';
 import Alisson from '../Assets/Team/alisson.jpeg';
-import David from '../Assets/Team/david.JPEG';
 import Mo from '../Assets/Team/mo.jpeg';
 import Ivan from '../Assets/Team/ivan.jpg'
 import Princess from '../Assets/Team/princess.jpeg';
@@ -12,7 +11,6 @@ function Team() {
     const teamMembers = [
         { name: 'Porfirio Montoya', imgSrc: Porfi },
         { name: 'Alisson Ross', imgSrc: Alisson },
-        { name: 'David Choi', imgSrc: David },
         { name: 'Jet Lin', imgSrc: Jet },
         { name: 'Mohamed Hasan', imgSrc: Mo },
         { name: 'Ivan Piceno', imgSrc: Ivan },

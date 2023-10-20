@@ -193,7 +193,6 @@ a {
   position: sticky;
   width: 100%;
   height: 1.5rem;
-  justify-content: space-between;
   align-content: center;
   padding-bottom:3rem;
   background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
@@ -519,20 +518,17 @@ a {
     margin-left: 1rem;
 
   }
+  .NavBar{
+    display: flex;
+    align-items: center;
+  }
   .nav-items{
-    right: 5vw;
-    padding-left: 5vw;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    display:grid;
-    grid-template-rows: 2rem 2rem;
-    grid-template-columns: 5rem 5rem 5rem;
+    margin-top: 3.5em;
+
   }
   .nav-items > li{
-    margin-right: 0.5em;
-    min-width:0.5rem;
-    font-size: small;
-    text-align: left;
+    margin-right: 0.8vw;
+    font-size: 0.8rem;
     border: hidden;
   }
   .registerButton{
