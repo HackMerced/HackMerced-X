@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ContactUs.css';
+import { Container, TextField, Button, Box, Typography, CssBaseline, Paper } from '@mui/material';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -9,54 +9,87 @@ const ContactPage = () => {
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: value,
-    }));
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // functionality to be put in soon
+    // Handle form submission, e.g., send data to backend
     console.log(formData);
   };
 
   return (
-    <div className="contact-container">
-      <main className="main-content">
-        <section className="contact-section">
-          <h1>Contact Us</h1>
-          <p>Feel like contacting us? Submit your queries here and we will get back to you as soon as possible.</p>
-          <form onSubmit={handleSubmit} className="contact-form">
-            <input
-              type="text"
+    <>
+          <Box
+        sx={{
+          flexGrow: 1,
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          background: 'linear-gradient(to bottom, #342153 0%, #C0593A 50%, #D77B26 100%)',
+          p: 2
+        }}
+      >
+      <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
+        <Paper elevation={6} sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
+          <Typography variant="h4" gutterBottom>
+            Contact Us
+          </Typography>
+          <Typography variant="body1">
+            Feel like contacting us? Submit your queries here and we will get back to you as soon as possible.
+          </Typography>
+          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+            <TextField
+              required
+              fullWidth
+              id="fullName"
+              label="Full Name"
               name="fullName"
-              placeholder="Full Name"
+              margin="normal"
               value={formData.fullName}
               onChange={handleChange}
-              className="form-input"
+              autoComplete="name"
+              autoFocus
             />
-            <input
-              type="email"
+            <TextField
+              required
+              fullWidth
+              id="email"
+              label="Email Address"
               name="email"
-              placeholder="Email"
+              margin="normal"
               value={formData.email}
               onChange={handleChange}
-              className="form-input"
+              autoComplete="email"
             />
-            <textarea
+            <TextField
+              required
+              fullWidth
+              id="message"
+              label="Your Message"
               name="message"
-              placeholder="Your message here..."
+              margin="normal"
               value={formData.message}
               onChange={handleChange}
-              className="form-textarea"
-            ></textarea>
-            <button type="submit" className="submit-button">Submit</button>
-          </form>
-        </section>
-      </main>
-    </div>
+              multiline
+              rows={4}
+            />
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 3, mb: 2, bgcolor: 'secondary.main' }}
+            >
+              Submit
+            </Button>
+          </Box>
+        </Paper>
+      </Container>
+        </Box>
+    </>
   );
 };
 
