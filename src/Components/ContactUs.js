@@ -46,7 +46,9 @@ const ContactPage = () => {
         return;
       }
 
-      const colRef = doc(db, "contacts", formData.fullName); // Using fullName as the document ID
+      const uniqueDocId = `${formData.fullName}_${Date.now()}`;
+
+      const colRef = doc(db, "contacts", uniqueDocId);
 
 
       await setDoc(colRef, {
