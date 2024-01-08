@@ -1,14 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Unbounded:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,400;1,700&display=swap');
 
 
 .html{
   overflow-y: hidden;
 }
 .App {
-  text-align: center;
   min-height: 100vh;
- 
+  font-family: 'K2D';
 }
 
 .App-link {
@@ -16,11 +15,11 @@
 }
 
 a {
-  color: #FF7676;
+  color: white;
 }
 
 .Tracks{
-  background: radial-gradient(50% 50% at 50% 50%, #D801DC 0%, #FF7676 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #CF8139, #C0593A, #342153);
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
@@ -34,44 +33,47 @@ a {
 }
 .Tracks-title{
   margin-top: 0;
-  font-family: 'Unbounded';
-  font-weight: normal;
+  font-family: 'K2D';
+  font-weight:bold;
   margin-bottom: 2em;
   margin-left: 11%;
   padding-top: 3.5em;
   text-align: left;
   position: absolute;
+  
 }
 .Tracks-Flex{
   justify-content: center;
   display: flex;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 .Track-Card{
-  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
+  box-shadow: inset rgb(49, 49, 49) 0px 0px 60px -12px;
+  background: white;
   width: 20vw;
   padding:2em;
   padding-top: 5vh;
   margin:1em;
   margin-bottom: 5vh;
   margin-top: 20vh;
-  opacity: .7;
-
+  border-image: linear-gradient(180deg,#342153, #C0593A, #CF8139) 30 / 1rem;
+  border-style: groove;
+  border-radius: 0 !important;
   position: relative;
 }
 .Track-Name{
-  color: #FFFFFF;
-  font-family: 'Unbounded';
+  color:#FF5E54;
+  font-family: 'K2D';
 }
 .Track-Text{
   padding-top: 2vh;
   margin:1vw;
-  font-family: 'DM Sans';
+  font-family: 'K2D';
   font-style: normal;
   font-weight: 50;
   font-size: 0.9em;
   text-align: center;
-  color: #FFFFFF;
+  color:#301942;
 }
 .Track-Logo{
   filter: drop-shadow(0px 0px 40px #FF5E54);
@@ -82,7 +84,7 @@ a {
 }
 .Sponsors{
   height:0;
-  background: radial-gradient(50% 50% at 50% 50%, #D801DC 0%, #FF7676 100%);
+  background: radial-gradient(50% 50% at 50% 50%,#342153, #C0593A, #CF8139);
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
@@ -101,7 +103,7 @@ a {
 .Sponsors-Description{
   left: 10vw;
   position: absolute;
-  font-family: 'DM Sans';
+  font-family: 'K2D';
   font-style: normal;
   font-weight: 500;
   font-size: 1.2em;
@@ -110,7 +112,7 @@ a {
 }
 .Sponsors-title{
   margin-top: 0;
-  font-family: 'Unbounded';
+  font-family: 'K2D';
   font-weight: normal;
   padding-top: 3em;
   text-align: left;
@@ -122,7 +124,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 5em 0;
-  background: linear-gradient(180deg, #FF5E5E 0%, #AD11BB 100%);
+  background: linear-gradient(180deg,#342153, #C0593A, #CF8139);
 }
 
 .FAQ-container{
@@ -134,7 +136,7 @@ a {
 }
 
 .FAQ-container .title{
-  font-family: 'Unbounded';
+  font-family: 'K2D';
   font-weight: normal;
   width: fit-content;
   margin-top: 0;
@@ -163,7 +165,7 @@ a {
 }
 
 .accordion-title{
-  font-family: 'DM Sans';
+  font-family: 'K2D';
   font-weight: bold;
   font-size: 1em;
   color: white;
@@ -172,7 +174,7 @@ a {
 }
 
 .accordion-description{
-  font-family: 'DM Sans';
+  font-family: 'K2D';
   font-style: normal;
   font-size: 0.9em;
   color: white;
@@ -196,7 +198,6 @@ a {
   align-content: center;
   padding-bottom:3rem;
   background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
-  /* background-color: red; */
   z-index: 2;
 }
 .nav-items{
@@ -208,7 +209,7 @@ a {
 }
 
 .nav-items .button, .nav-items .registerButton{
-  font-family: 'DM Sans';
+  font-family: 'K2D';
   font-weight: bold;
   font-size: 1em;
 }
@@ -225,8 +226,8 @@ a {
   color: white;
 }
 .registerButton{
-  background-color: #FF7676;
-  border: 0.12rem solid #FF7676;
+  background-color: #342153;
+  border: 0.12rem solid #342153;
   border-radius: 3rem;
   padding:0.8rem;
   padding-bottom: 1rem;
@@ -249,45 +250,32 @@ a {
 }
 
 .MainPage{
-  background-color: #B61255;
-  background: radial-gradient(89.01% 89.01% at 72.01% 35.06%, #D83F0E 0%, #AD066A 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-color: #000000; 
   background-blend-mode: overlay;
   mix-blend-mode: normal;
-  position:relative;
   display: flex;
   width: 100%;
   height: 100vh;
   font-size: calc(1em + 2vmin);
-  font-family: 'Unbounded';
+  font-weight: bold;
   overflow-x:hidden;
- 
-}
-.Main-text{
-  position: absolute;
-  text-align: left;
-  left:10rem;
-  top:10rem;
-  filter: drop-shadow(0px 0px 40px #FF5E54);
-  z-index: 3;
+ justify-content: center;
 }
 .Main-text-background{
-  color: none;
-  position: absolute;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(143, 26, 26) 0%, #FF7676 100%);
-  border-radius: 5%;
-  /* width: 45rem; */
-  width: 115%;
-  height: 100%;
-  /* height: 26rem; */
-  left:-3rem;
-  filter: opacity(50%) blur(5px);
-  z-index: -3;
+  width: 100vw;
+  height: 90vh;
+  background-repeat: round;
+  background-size: 100% 90%;
+  filter: drop-shadow(0px 0px 40px #FF5E54);
+  background-image: url('./Assets/background.png');
+  transform: scale(90%);
 }
-.Main-video{
-  min-width: 100vw;
-  max-height: 100vh;
-  object-fit: cover;
-  overflow-y: hidden;
+.Main-text{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
 }
 .Main-title{
   color:#FFFFFF;
@@ -300,9 +288,10 @@ a {
 }
 .Main-subtitle{
   color:#FFFFFF;
+  display: flex;
+  text-align: center;
 }
 .Main-sub2{
-  font-family: 'DM Sans';
   font-style: small;
   font-weight: 500;
   font-size: 24px;
@@ -312,7 +301,6 @@ a {
   color: #FFFFFF;
 }
 .Main-footer{
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -323,7 +311,6 @@ a {
   
 }
 .Main-footerlink{
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -349,22 +336,24 @@ a {
 }
 
 .registerButton2{
-  font-family: 'Unbounded';
-  background-color: #FFFFFF; 
-  border: 0.18rem solid black;
+  font-family: 'K2D';
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #342153; 
+  box-shadow: 17px 22px #C0593A;
   border-radius: 100px;
-  color: #B61255;
-  width: 15rem;
-  height:2rem;
+  color: white;
+  width: 50vw;
+  height:10vh;
   transition-duration: .4s;
   border: none;
 }
 .registerButton2:hover{
-  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
+  background: linear-gradient(122.2deg, #301942 -0.42%, #7a4332 100%);
   border: 0.18rem solid white;
   color: #FFFFFF;
   cursor: pointer;
-  transform: translate(0.1rem, -0.1rem);
+  transform: translate(0.1rem, 0.1rem);
   border: none;
   filter: saturate(200%);
 }
@@ -375,14 +364,14 @@ a {
   filter:blur(0.1rem);
   position: absolute;
   font-size: .5em;
-  top: 16.8rem;
+  top: 5vh;
 }
 @keyframes move-stars {
   0% {
       transform: translateX(0);
   }
   50% {
-      transform: translateX(14rem);
+      transform: translateX(30rem);
   }
   100% {
       transform: translateX(0);
@@ -404,14 +393,14 @@ a {
 .Footer-Comp{
   position: relative;
   padding-bottom: 2rem;
-  color: #E0B8FF;
-  font-family: 'DM Sans';
+  color: white;
+  font-family: 'K2D';
   font-style: normal;
   font-weight: 400;
   font-size: 0.9em;
   max-width: 100vw;
   min-height: 33vh;
-  background: linear-gradient(97.23deg, #60164D 4.27%, #6A2047 97.05%);
+  background: linear-gradient(180deg, #CC7F3A, #C0593A, #342153);
 }
 .Footer-container{
   padding-top: 10vh;
@@ -444,7 +433,7 @@ a {
 }
 .Team-container .title{
     height: 10vh;
-    font-family: 'Unbounded';
+    font-family: 'K2D';
     font-weight: normal;
     width: fit-content;
     margin-top: 0rem;
@@ -476,7 +465,7 @@ a {
 }
 .Team-Name{
   color: #FFFFFF;
-  font-family: 'Unbounded';
+  font-family: 'K2D';
 }
 /*MOBILE VIEWPORTS*/
 @media screen and (min-width: 300px) and (max-width: 880px) {
@@ -495,12 +484,12 @@ a {
     display: none;
    
   }
-  .Main-text{
-    left:auto;
-    padding-left: 1em;
+  .Main-text-background{
+    padding: inherit;
     font-size: smaller;
-    z-index: 3;
-    transform: scale(80%);
+  }
+  .Main-text{
+    padding: 2rem;
   }
   .title-flair{
     display: block;
@@ -513,10 +502,6 @@ a {
   .Main-footerlink{
     margin: -1rem;
     padding-left: 1rem;
-  }
-  .Main-text-background{
-    margin-left: 1rem;
-
   }
   .NavBar{
     display: flex;
@@ -533,7 +518,7 @@ a {
   }
   .registerButton{
     border-radius: 3rem;
-    padding: 0;
+    padding: 0.5rem;
     text-align: center;
     font-size: 1em;
     width: 4rem;
@@ -543,6 +528,12 @@ a {
     color:#AD0624;
     border: 0.18rem solid #AD0624;
     cursor: pointer;
+  }
+  .registerButton2{
+    margin: 2rem;
+    height: 10vh;
+    width: 15rem;
+    font-size: x-large;
   }
   .Team-Flex{
     flex-direction: column;

@@ -40,7 +40,7 @@ function FAQ() {
             <FAQAccordion title='I’ve never participated in a hackathon before. Can I participate?' description='Yes! HackMerced welcomes people of all experience levels. We will also have beginner-friendly workshops, events, and prize categories for those unacquainted with hackathons.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='Will HackMerced VIII be in-person or virtual?' description='HackMerced IX will be a fully in-person event! It will take place at the University of California, Merced. Workshop resources will also be shared in our Discord server.'/>
+            <FAQAccordion title='Will HackMerced IX be in-person or virtual?' description='HackMerced IX will be a fully in-person event! It will take place at the University of California, Merced. Workshop resources will also be shared in our Discord server.'/>
           </Grid>
           <Grid xs={6}>
             <FAQAccordion title='How many people can be on a team?' description='Teams can consist of 1-4 people.'/>
@@ -64,7 +64,7 @@ function FAQ() {
             <FAQAccordion title='How do I win free swag?' description='This year, HackMerced is proud to present HackerPass, an RFID-based attendance tracking system. When you participate in workshops or activities, simply scan the badge you obtain at check-in to earn points that can be redeemed for swag.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://forms.gle/JbsZTo9VYRxuRrJQA">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Intiser Aziz at iaziz2@ucmerced.edu.</>}/>
+            <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsinPEX__G-Jr2kUgGIHNpwZyTA3VWYx4NPGU8X320Xa47rg/viewform">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Porfirio Montoya at pmontoya2@ucmerced.edu</>}/>
           </Grid>
           <Grid xs={6}>
           <FAQAccordion title='I have more questions!' description='Please join the HackMerced Community Discord server! If you have personal questions, feel free to open a ticket with us there. Please join our Discord at ' link='https://discord.gg/E5GsRt3jPs'>
