@@ -14,8 +14,10 @@ function MainPage() {
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScZoaMgds1Ihb4j7VfD3NQQSOSvsBOuurg8Lz-hIB7Im71Lug/viewform">
                   <button className="registerButton2">Register Now</button>
                   
+                  {/*
                   <p className="star1" id="star">★</p><p className="star2" id="star">★</p><p className="star3" id="star">★</p>
-          
+                  */}
+                  
                 </a>
                 <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji">📧</p></a></p>
                 </div>
