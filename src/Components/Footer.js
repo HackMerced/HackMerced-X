@@ -27,7 +27,7 @@ function Footer() {
                 Merced, CA 95348
                 <br/>
                 <br/>
-                For inquiries, please contact Porfirio Montoya at pmontoya2@ucmerced.edu
+                For inquiries, please contact Porfirio Montoya at porfirio@hackmerced.com
             </div>
         </div>
        
