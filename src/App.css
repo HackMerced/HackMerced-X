@@ -280,6 +280,17 @@ a {
 .Main-title{
   color:#FFFFFF;
   transition-duration: 0.4s;
+  animation: glide-in 0.2s ease-out 1;
+}
+@keyframes glide-in {
+  0%{
+    filter: blur(100px) opacity(10%);
+    transform:translateY(-30rem)
+  }
+  100%{
+    filter: blur(0px) opacity(100%);
+    transform:translateY(0rem)
+  }
 }
 .Main-title:hover{
   transition-duration: 1s;
@@ -290,6 +301,7 @@ a {
   color:#FFFFFF;
   display: flex;
   text-align: center;
+  animation: glide-in 0.3s ease-out 1;
 }
 .Main-sub2{
   font-style: small;
@@ -308,7 +320,7 @@ a {
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  
+  animation: glide-in 0.5s ease-out 1;
 }
 .Main-footerlink{
   font-style: normal;
@@ -320,10 +332,12 @@ a {
   color: #dbbaf0;
   padding-left: 5px;
   text-decoration: wavy;
+  animation: glide-in 0.6s ease-out 1;
 }
 .emailEmoji{
   padding-left: 0.4rem;
   filter: grayscale(100%);
+  animation: glide-in 0.7s ease-out 1;
 }
 .Main-footerlink:hover{
   color: #B01F69;
@@ -347,6 +361,7 @@ a {
   height:10vh;
   transition-duration: .4s;
   border: none;
+  animation: glide-in 0.4s ease-out 1;
 }
 .registerButton2:hover{
   background: linear-gradient(122.2deg, #301942 -0.42%, #7a4332 100%);
@@ -358,37 +373,111 @@ a {
   filter: saturate(200%);
 }
 
+.registerButton2Stars{
+  position: relative;
+}
 #star{
-  display: none;
+  /* display: none; */
   color: white;
-  filter:blur(0.1rem);
+  filter:blur(0.1rem) opacity(0%);
   position: absolute;
   font-size: .5em;
-  top: 5vh;
+  top: 50%;
+  right: 50%;
 }
-@keyframes move-stars {
+@keyframes move-stars-x {
   0% {
-      transform: translateX(0);
+    transform: translateX(-20vw);
+    filter: blur(0.1rem) opacity(0%);
   }
-  50% {
-      transform: translateX(30rem);
+  10%{
+    filter: blur(0.1rem) opacity(100%);
+  }
+  99.9%{
+    filter: blur(0.1rem) opacity(100%);
   }
   100% {
-      transform: translateX(0);
+    transform: translateX(20vw);
+    filter: blur(0.1rem) opacity(0%);
   }
 }
-.registerButton2:hover ~ #star{
-  display:block;
+@keyframes move-stars-y {
+  0% {
+    transform: translateY(0rem);
+  }
+  12.5% {
+    transform: translateY(-10rem);
+  }
+  25% {
+    transform: translateY(0rem);
+  }
+  37.5% {
+    transform: translateY(-10rem);
+  }
+  50% {
+    transform: translateY(0rem);
+  }
+  62.5% {
+    transform: translateY(-10rem);
+  }
+  75% {
+    transform: translateY(0rem);
+  }
+  87.5% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
 }
-.registerButton2:hover ~ .star1{
-  animation: move-stars 2s ease-in-out infinite;
-  display:block;
+.registerButton2:hover ~ .starWrapper #star{
+  display: block;
 }
-.registerButton2:hover ~ .star2{
-  animation: move-stars 1.5s ease-in-out infinite;
+.registerButton2:hover ~ .starWrapper{
+  animation: move-stars-y 1.8s ease-in-out 2;
+
 }
-.registerButton2:hover ~ .star3{
-  animation: move-stars 1s ease-in-out infinite;
+.registerButton2:hover ~ .starWrapper .star1{
+  animation: move-stars-x 1s ease-in-out 1 both;
+
+}
+.registerButton2:hover ~ .starWrapper .star2{
+  animation: move-stars-x 1.2s ease-in-out 1s 1 both;
+
+}
+.registerButton2:hover ~ .starWrapper .star3{
+  animation: move-stars-x 1.6s ease-in-out 2s 1 both;
+
+}
+.starBursts{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  font-size: 0px;
+}
+.registerButton2:hover ~ .starBursts .starBurst1{
+  animation: starburst 1s linear 0.93s backwards;
+}
+.registerButton2:hover ~ .starBursts .starBurst2{
+  animation: starburst 1s linear 2.2s backwards;
+}
+.registerButton2:hover ~ .starBursts .starBurst3{
+  animation: starburst 1s linear 3.6s backwards;
+}
+@keyframes starburst {
+  0%{
+    font-size: 50px;
+    display: none;
+    transform: rotate(0deg);
+  }
+  0.1%{
+    display: flex;
+  }
+  100%{
+    display: none;
+    transform: rotate(360deg);
+  }
 }
 .Footer-Comp{
   position: relative;
