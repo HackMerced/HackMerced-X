@@ -3,7 +3,6 @@ import MainPage from './MainPage.js';
 import Tracks from './Tracks.js';
 import FAQ from './FAQ.js';
 import Sponsors from './Sponsors.js';
-import Footer from './Footer.js';
 
 function HomePage() {
   return (
@@ -12,7 +11,6 @@ function HomePage() {
       <Tracks/>
       <FAQ/>
       <Sponsors/>
-      <footer><Footer/></footer>
     </div>
   );
 }
