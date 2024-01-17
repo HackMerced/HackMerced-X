@@ -1,25 +1,24 @@
-
 import './App.css';
-import Tracks from './Components/Tracks.js';
-import FAQ from './Components/FAQ.js'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './Components/NavBar.js';
-import MainPage from './Components/MainPage.js';
-import Sponsors from './Components/Sponsors.js';
+import HomePage from './Components/HomePage.js';
+import ContactUs from './Components/ContactUs.js';
 import Footer from './Components/Footer.js';
-import Team from './Components/Team.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <NavBar/>
-      </header>
-      <MainPage/>
-      <Tracks/>
-      <FAQ/>
-      <Sponsors/>
-      <footer><Footer/></footer>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <NavBar/>
+        </header>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/contactus" element={<ContactUs />} />
+        </Routes>
+        <Footer/>
+      </div>
+    </Router>
   );
 }
 
