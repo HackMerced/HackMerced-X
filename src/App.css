@@ -481,6 +481,7 @@ a {
 }
 .Footer-Comp{
   position: relative;
+  display: flex;
   padding-bottom: 2rem;
   color: white;
   font-family: 'K2D';
@@ -555,6 +556,10 @@ a {
 .Team-Name{
   color: #FFFFFF;
   font-family: 'K2D';
+}
+/*CONTACT US*/
+.Contact-Us-container{
+  height: 80vh;
 }
 /*MOBILE VIEWPORTS*/
 @media screen and (min-width: 300px) and (max-width: 880px) {
@@ -719,5 +724,8 @@ a {
   .Track-Logo{
     height: auto;
     width: auto;
+  }
+  .Contact-Us-container{
+    height: auto;
   }
 }

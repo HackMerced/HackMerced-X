@@ -74,7 +74,7 @@ const ContactPage = () => {
 
   return (
     <>
-    <Grid container spacing={0} sx={{ height: '80vh', backgroundColor: 'background.default' }}>
+    <Grid container spacing={0} className="Contact-Us-container" sx={{ backgroundColor: 'background.default' }}>
       <Grid item xs={12} sm={6} sx={{
         background: 'linear-gradient(to bottom, #342153 0%, #C0593A 50%, #D77B26 100%)',
         display: 'flex',
