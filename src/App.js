@@ -21,10 +21,11 @@ function App() {
         <header className="App-header">
           <NavBar/>
         </header>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/discord" element={<DiscordRedirect />} />
+        <Routes basename={process.env.PUBLIC_URL}>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="contactus" element={<ContactUs />} />
+          <Route path="discord" element={<DiscordRedirect />} />
+
         </Routes>
         <Footer/>
       </div>
