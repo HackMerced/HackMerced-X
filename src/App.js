@@ -1,9 +1,18 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { useEffect } from 'react';
 import NavBar from './Components/NavBar.js';
 import HomePage from './Components/HomePage.js';
 import ContactUs from './Components/ContactUs.js';
 import Footer from './Components/Footer.js';
+
+function DiscordRedirect() {
+  useEffect(() => {
+    window.location.href = 'https://discord.com/invite/E5GsRt3jPs';
+  }, []);
+
+  return null;
+}
 
 function App() {
   return (
@@ -15,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/discord" element={<DiscordRedirect />} />
         </Routes>
         <Footer/>
       </div>
