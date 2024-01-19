@@ -12,7 +12,7 @@ function Footer() {
             <br/>
             <a style={{ textDecoration: 'none' }} href="https://www.facebook.com/hackmerced"><img className='Footer-Logo' src={Facebook} alt="Facebook logo"/>Facebook<br/></a>
             <br/>
-            <a style={{ textDecoration: 'none' }} href="https://discord.gg/E5GsRt3jPs"><img className='Footer-Logo' src={Discord} alt="Discord logo"/>Discord<br/></a>
+            <a style={{ textDecoration: 'none' }} href="https://hackmerced.com/discord"><img className='Footer-Logo' src={Discord} alt="Discord logo"/>Discord<br/></a>
             </div>
             <img className='Footer-Vector' src={Line} alt="vector"/>
             <div className="Footer-description">
