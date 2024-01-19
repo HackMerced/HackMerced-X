@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Routes} from 'react-router-dom';
 import { useEffect } from 'react';
 import NavBar from './Components/NavBar.js';
 import HomePage from './Components/HomePage.js';
@@ -16,7 +16,7 @@ function DiscordRedirect() {
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <header className="App-header">
           <NavBar/>
@@ -28,7 +28,7 @@ function App() {
         </Routes>
         <Footer/>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
