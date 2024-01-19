@@ -23,8 +23,8 @@ function App() {
         </header>
         <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<HomePage />}/>
-          <Route path="contactus" element={<ContactUs />} />
-          <Route path="discord" element={<DiscordRedirect />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/discord" element={<DiscordRedirect />} />
 
         </Routes>
         <Footer/>
