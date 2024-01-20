@@ -267,7 +267,7 @@ a {
   background-repeat: round;
   background-size: 100% 90%;
   filter: drop-shadow(0px 0px 40px #FF5E54);
-  background-image: url('./Assets/background.png');
+  background-image: url('./Assets/grain.gif') ;
   transform: scale(90%);
 }
 .Main-text{
