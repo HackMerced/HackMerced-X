@@ -5,7 +5,6 @@ import Alisson from '../Assets/Team/alisson.JPG';
 import Mo from '../Assets/Team/mo.JPG';
 import Ivan from '../Assets/Team/ivan.jpg'
 import Princess from '../Assets/Team/princess.jpeg';
-import Emi from '../Assets/Team/emi.jpg'
 import Noor from '../Assets/Team/noor.JPG'
 import Shyam from '../Assets/Team/shyam.JPG';
 import Akhil from '../Assets/Team/akhil.JPG';
@@ -26,7 +25,6 @@ function Team() {
         { name: 'Laith Darras', imgSrc: Laith },
         { name: 'Ivan Piceno', imgSrc: Ivan },
         { name: 'Princess Thomas', imgSrc: Princess },
-        { name: 'Emi Rueth', imgSrc: Emi },
     ]
 
     return (

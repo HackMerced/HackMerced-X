@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import NavBar from './Components/NavBar.js';
 import HomePage from './Components/HomePage.js';
+import AboutUs from './Components/AboutUs';
 import ContactUs from './Components/ContactUs.js';
 import Footer from './Components/Footer.js';
 
@@ -14,6 +15,7 @@ function App() {
         </header>
         <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<HomePage />}/>
+          <Route path="/aboutus" element={<AboutUs/>}/>
           <Route path="/contactus" element={<ContactUs />} />
         </Routes>
         <Footer/>
