@@ -18,7 +18,7 @@ a {
   color: white;
 }
 
-.Tracks{
+.Tracks, .About-HM{
   background: radial-gradient(50% 50% at 50% 50%, #CF8139, #C0593A, #342153);
   background-blend-mode: overlay;
   mix-blend-mode: normal;
@@ -31,7 +31,7 @@ a {
   padding-bottom: 10vh ;
   
 }
-.Tracks-title{
+.Tracks-title, .About-HM-Title{
   margin-top: 0;
   font-family: 'K2D';
   font-weight:bold;
@@ -42,12 +42,12 @@ a {
   position: absolute;
   
 }
-.Tracks-Flex{
+.Tracks-Flex, .About-HM-Contents  {
   justify-content: center;
   display: flex;
   padding-top: 1rem;
 }
-.Track-Card{
+.Track-Card, .About-HM-Desc, .Team-photo{
   box-shadow: inset rgb(49, 49, 49) 0px 0px 60px -12px;
   background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
   width: 20vw;
@@ -65,7 +65,7 @@ a {
   color:#FF5E54;
   font-family: 'K2D';
 }
-.Track-Text{
+.Track-Text, .About-HM-Text{
   padding-top: 2vh;
   margin:1vw;
   font-family: 'K2D';
@@ -561,6 +561,24 @@ a {
 .Contact-Us-container{
   height: 80vh;
 }
+/*ABOUT US*/
+.About-HM-Contents{
+  display:flex;
+}
+.About-HM-Desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.About-HM-Text{
+  padding: 0;
+  font-size: large;
+  text-align: center;
+}
+.Team-photo{
+  width:50vw;
+  height: auto;
+}
 /*MOBILE VIEWPORTS*/
 @media screen and (min-width: 300px) and (max-width: 880px) {
   .MainPage{
@@ -629,9 +647,17 @@ a {
     width: 15rem;
     font-size: x-large;
   }
-  .Team-Flex{
+  .Team-Flex, .About-HM-Contents{
     flex-direction: column;
     height: fit-content;
+  }
+  .About-HM-Desc{
+    width: auto;
+  }
+  .Team-photo{
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .Team-container .title{
     height: 0;
