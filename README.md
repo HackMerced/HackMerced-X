@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with HackMerced IX ReactJS App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -27,6 +27,12 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+## IMPORTANT BUILD AND DEPLOYING DIFFERENCES BETWEEN WINDOWS / LINUX
+- In Linux, add the following script within the `build` script inside of the `package.json` before running `npm run deploy`:
+`"build": "react-scripts build && cp build/index.html build/404.html",`
+- In Windows, please replace the build command with the following:
+`"build": "react-scripts build && copy build\\index.html build\\404.html",`
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
