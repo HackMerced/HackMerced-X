@@ -84,7 +84,7 @@ a {
 }
 .Sponsors{
   height:0;
-  background: radial-gradient(50% 50% at 50% 50%,#342153, #C0593A, #CF8139);
+  background: radial-gradient(60% 45% at 50% 60%,#342153, #C0593A, #CF8139);
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
@@ -95,10 +95,10 @@ a {
   text-align: center;
 }
 .Sponsors-Logo{
-  width: 50vw;
-  left: 131px;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  width: 70vw;
+  left: 121px;
+  padding-top: 4em;
+  padding-bottom: 5.5em;
 }
 .Sponsors-Description{
   left: 10vw;
