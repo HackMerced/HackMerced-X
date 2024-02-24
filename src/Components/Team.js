@@ -3,30 +3,24 @@ import Jet from '../Assets/Team/jet.JPG';
 import Porfi from '../Assets/Team/porfi.JPG';
 import Alisson from '../Assets/Team/alisson.JPG';
 import Mo from '../Assets/Team/mo.JPG';
-import Ivan from '../Assets/Team/ivan.jpg'
 import Princess from '../Assets/Team/princess.jpeg';
-import Emi from '../Assets/Team/emi.jpg'
 import Noor from '../Assets/Team/noor.JPG'
 import Shyam from '../Assets/Team/shyam.JPG';
 import Akhil from '../Assets/Team/akhil.JPG';
-import Rafael from '../Assets/Team/rafael.JPG';
 import Laith from '../Assets/Team/laith.JPG';
 
 
 function Team() {
     const teamMembers = [
-        { name: 'Porfirio Montoya', imgSrc: Porfi },
-        { name: 'Alisson Ross', imgSrc: Alisson },
-        { name: 'Jet Lin', imgSrc: Jet },
-        { name: 'Noor Irshad', imgSrc: Noor },
-        { name: 'Mohamed Hasan', imgSrc: Mo },
-        { name: 'Shyam Gupta', imgSrc: Shyam },
-        { name: 'Akhil Devarasetty', imgSrc: Akhil },
-        { name: 'Rafael Lastre', imgSrc: Rafael },
-        { name: 'Laith Darras', imgSrc: Laith },
-        { name: 'Ivan Piceno', imgSrc: Ivan },
-        { name: 'Princess Thomas', imgSrc: Princess },
-        { name: 'Emi Rueth', imgSrc: Emi },
+        { name: 'Porfirio Montoya', imgSrc: Porfi, linkedIn: "https://www.linkedin.com/in/porfirio_montoya_0x001" },
+        { name: 'Alisson Ross', imgSrc: Alisson, linkedIn: "https://www.linkedin.com/in/alisson-ross/"},
+        { name: 'Jet Lin', imgSrc: Jet, linkedIn: "https://www.linkedin.com/in/jet-lin-565952238/" },
+        { name: 'Noor Irshad', imgSrc: Noor, linkedIn: "https://www.linkedin.com/in/noorulainirshad/"},
+        { name: 'Mohamed Hasan', imgSrc: Mo, linkedIn: "https://www.linkedin.com/in/mohamed-hasan-4b850418a/"},
+        { name: 'Shyam Gupta', imgSrc: Shyam, linkedIn: "https://www.linkedin.com/in/shyam-gupta-626252260/" },
+        { name: 'Akhil Devarasetty', imgSrc: Akhil, linkedIn: "https://www.linkedin.com/in/akhil-devarasetty-073a72244/" },
+        { name: 'Laith Darras', imgSrc: Laith, linkedIn: "https://www.linkedin.com/in/laith-darras-52a407211/"},
+        { name: 'Princess Thomas', imgSrc: Princess, linkedIn:"https://www.linkedin.com/in/princess-thomas/" },
     ]
 
     return (
@@ -39,7 +33,7 @@ function Team() {
                     {teamMembers.map((teamMember, index) => {
                         return (
                             <Grid item xs={3} className="Team-individual" key={index}>
-                                <img className="Team-Img" src={teamMember.imgSrc} alt="Avatar" />
+                                <a href={teamMember.linkedIn}><img className="Team-Img" src={teamMember.imgSrc} alt="Avatar" /></a>
                                 <div className="Team-Name">{teamMember.name}</div>
                             </Grid>
                         )
