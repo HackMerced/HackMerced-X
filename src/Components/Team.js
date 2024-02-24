@@ -3,12 +3,10 @@ import Jet from '../Assets/Team/jet.JPG';
 import Porfi from '../Assets/Team/porfi.JPG';
 import Alisson from '../Assets/Team/alisson.JPG';
 import Mo from '../Assets/Team/mo.JPG';
-import Ivan from '../Assets/Team/ivan.jpg'
 import Princess from '../Assets/Team/princess.jpeg';
 import Noor from '../Assets/Team/noor.JPG'
 import Shyam from '../Assets/Team/shyam.JPG';
 import Akhil from '../Assets/Team/akhil.JPG';
-import Rafael from '../Assets/Team/rafael.JPG';
 import Laith from '../Assets/Team/laith.JPG';
 
 
@@ -21,9 +19,7 @@ function Team() {
         { name: 'Mohamed Hasan', imgSrc: Mo },
         { name: 'Shyam Gupta', imgSrc: Shyam },
         { name: 'Akhil Devarasetty', imgSrc: Akhil },
-        { name: 'Rafael Lastre', imgSrc: Rafael },
         { name: 'Laith Darras', imgSrc: Laith },
-        { name: 'Ivan Piceno', imgSrc: Ivan },
         { name: 'Princess Thomas', imgSrc: Princess },
     ]
 

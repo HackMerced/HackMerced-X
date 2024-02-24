@@ -562,6 +562,9 @@ a {
   height: 80vh;
 }
 /*ABOUT US*/
+.About-HM-Title{
+  padding-top: 4em;
+}
 .About-HM-Contents{
   display:flex;
 }
@@ -578,6 +581,9 @@ a {
 .Team-photo{
   width:50vw;
   height: auto;
+}
+#mlh-trust-badge{
+  left: 50px;
 }
 /*MOBILE VIEWPORTS*/
 @media screen and (min-width: 300px) and (max-width: 880px) {
@@ -753,5 +759,11 @@ a {
   }
   .Contact-Us-container{
     height: auto;
+  }
+  #mlh-trust-badge{
+    left: 0px;
+  }
+  #mlh-trust-badge img{
+    width:max-content;
   }
 }
