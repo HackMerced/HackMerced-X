@@ -8,6 +8,7 @@ import Noor from '../Assets/Team/noor.JPG'
 import Shyam from '../Assets/Team/shyam.JPG';
 import Akhil from '../Assets/Team/akhil.JPG';
 import Laith from '../Assets/Team/laith.JPG';
+import Lauren from '../Assets/Team/lauren.jpg';
 
 
 function Team() {
@@ -21,6 +22,7 @@ function Team() {
         { name: 'Akhil Devarasetty', imgSrc: Akhil, linkedIn: "https://www.linkedin.com/in/akhil-devarasetty-073a72244/" },
         { name: 'Laith Darras', imgSrc: Laith, linkedIn: "https://www.linkedin.com/in/laith-darras-52a407211/"},
         { name: 'Princess Thomas', imgSrc: Princess, linkedIn:"https://www.linkedin.com/in/princess-thomas/" },
+        { name: 'Lauren Hur', imgSrc: Lauren, linkedIn:"https://www.linkedin.com/in/laurenhur" },
     ]
 
     return (
