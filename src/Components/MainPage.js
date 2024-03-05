@@ -10,9 +10,14 @@ function MainPage() {
                   <br/>
                   March 8-10 2024 @ UC Merced
                 </p>
+                <p className="Main-subtitle">
+                  Registrations are now closed
+                  <br/>
+                  Meet us in the opening ceremony 5pm @COB1 102
+                </p>
                
-                <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLScZoaMgds1Ihb4j7VfD3NQQSOSvsBOuurg8Lz-hIB7Im71Lug/viewform">
-                  <button className="registerButton2">Register Now</button>
+                <a className="registerButton2Stars" href=" https://maps.app.goo.gl/UVBGhR5W1F3gQNeU7">
+                  <button className="registerButton2">Show me where</button>
                   
                   <div className="starWrapper">
                     <p className="star1" id="star">★</p>
