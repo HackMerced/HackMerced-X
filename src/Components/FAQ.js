@@ -70,6 +70,20 @@ function FAQ() {
             <FAQAccordion title='When and where is the opening ceremony?' description={<>Our Check-in is on March 8th, 4:00pm.  Opening Ceremony is March 8th, 5:00pm. Both at UC Merced in building COB1 102. It will last about an hour. Hacking begins at 6pm for 36 hours. See a maps of the school and the buildings {<a href="https://registrar.ucmerced.edu/resources/maps">here</a>}</>}/>
           </Grid>
           <Grid xs={6}>
+            <FAQAccordion title='When is check-in?' description={<>Check-in for the event is open starting at 4pm! Afterwards, check-in will remain open until 11:59pm on Mar 9th.</>}/>
+          </Grid>
+          <Grid xs={6}>
+            <FAQAccordion title='When does the event end?' description={<>HackMerced IX's closing ceremony ends at 12pm on Mar 10th.</>}/>
+          </Grid>
+          <Grid xs={6}>
+          <FAQAccordion title='Are travel reimbursements covered for participating in HackMerced?' description='Sadly, we do not offer travel reimbursements this year. We are sorry for any inconvenience this causes.'>
+          </FAQAccordion>
+          </Grid>
+          <Grid xs={6}>
+          <FAQAccordion title='Will there be any places to sleep or will I need to book a hotel?' description='We will be have rooms COB1 110 and COB1 114 as designated sleep rooms during the event. You will see exact times in our Live Page!'>
+          </FAQAccordion>
+          </Grid>
+          <Grid xs={6}>
           <FAQAccordion title='I have more questions!' description='Please join the HackMerced Community Discord server! If you have personal questions, feel free to open a ticket with us there. Please join our Discord at ' link='https://discord.gg/E5GsRt3jPs'>
           </FAQAccordion>
           </Grid>
