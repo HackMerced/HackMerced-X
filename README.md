@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with HackMerced IX ReactJS App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -79,6 +78,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# HackMerced-X
->>>>>>> 287c0023ce364e07c27022d7351d59b4b5b358fb
+
