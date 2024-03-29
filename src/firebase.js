@@ -17,6 +17,8 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
+// Old firebase configuration
+
 // const appKey = process.env.REACT_APP_API_KEY;
 // const authDomain = process.env.REACT_APP_AUTH_DOMAIN;
 // const projectId = process.env.REACT_APP_PROJECT_ID;
