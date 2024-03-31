@@ -40,7 +40,7 @@ function FAQ() {
             <FAQAccordion title='I’ve never participated in a hackathon before. Can I participate?' description='Yes! HackMerced welcomes people of all experience levels. We will also have beginner-friendly workshops, events, and prize categories for those unacquainted with hackathons.'/>
           </Grid>
           <Grid xs={6}>
-            <FAQAccordion title='Will HackMerced IX be in-person or virtual?' description='HackMerced IX will be a fully in-person event! It will take place at the University of California, Merced. Workshop resources will also be shared in our Discord server.'/>
+            <FAQAccordion title='Will HackMerced X be in-person or virtual?' description='HackMerced X will be a fully in-person event! It will take place at the University of California, Merced. Workshop resources will also be shared in our Discord server.'/>
           </Grid>
           <Grid xs={6}>
             <FAQAccordion title='How many people can be on a team?' description='Teams can consist of 1-4 people.'/>
@@ -66,7 +66,7 @@ function FAQ() {
           <Grid xs={6}>
             <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsinPEX__G-Jr2kUgGIHNpwZyTA3VWYx4NPGU8X320Xa47rg/viewform">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Porfirio Montoya at pmontoya2@ucmerced.edu</>}/>
           </Grid>
-          <Grid xs={6}>
+          {/* <Grid xs={6}>
             <FAQAccordion title='When and where is the opening ceremony?' description={<>Our Check-in is on March 8th, 4:00pm.  Opening Ceremony is March 8th, 5:00pm. Both at UC Merced in building COB1 102. It will last about an hour. Hacking begins at 6pm for 36 hours. See a maps of the school and the buildings {<a href="https://registrar.ucmerced.edu/resources/maps">here</a>}</>}/>
           </Grid>
           <Grid xs={6}>
@@ -74,7 +74,7 @@ function FAQ() {
           </Grid>
           <Grid xs={6}>
             <FAQAccordion title='When does the event end?' description={<>HackMerced IX's closing ceremony ends at 12pm on Mar 10th.</>}/>
-          </Grid>
+          </Grid> */}
           <Grid xs={6}>
           <FAQAccordion title='Are travel reimbursements covered for participating in HackMerced?' description='Sadly, we do not offer travel reimbursements this year. We are sorry for any inconvenience this causes.'>
           </FAQAccordion>
