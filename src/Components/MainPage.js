@@ -13,7 +13,7 @@ function MainPage() {
                 <p className="Main-subtitle">
                   Applications to join our team are Open!
                 </p>
-               
+                  Apply Now to help make HackMerced X come to fruition!
                 <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSd7K6NUy1IWhxdTOlP_40LQLvO-9S1cIRlE_KQlPj6xkFf3dg/viewform">
                   <button className="registerButton2">Apply Now!</button>
                   
