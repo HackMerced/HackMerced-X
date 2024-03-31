@@ -10,10 +10,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header">
         <a id="mlh-trust-badge" style={{'display':'block','max-width':'100px','min-width':'60px','position':'absolute','top':'0','width':'10%','z-index':'10000'}} href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg" alt="Major League Hacking 2024 Hackathon Season" style={{'width':'120%'}}/></a>
-          <NavBar/>
-        </header>
+        </header> */}
+        <NavBar/>
+      
         <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<HomePage />}/>
           <Route path="/aboutus" element={<AboutUs/>}/>

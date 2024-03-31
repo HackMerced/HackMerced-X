@@ -27,7 +27,7 @@ function Footer() {
                 Merced, CA 95348
                 <br/>
                 <br/>
-                For inquiries, please contact Porfirio Montoya at porfirio@hackmerced.com
+                For inquiries, please contact Jet Lin at jet.lin@hackmerced.com
             </div>
         </div>
        

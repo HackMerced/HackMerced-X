@@ -302,6 +302,7 @@ a {
   display: flex;
   text-align: center;
   animation: glide-in 0.3s ease-out 1;
+  margin: 1rem;
 }
 .Main-sub2{
   font-style: small;
@@ -609,13 +610,18 @@ a {
   .Main-text{
     padding: 2rem;
   }
+
   .title-flair{
     display: block;
   }
-
+  button.registerButton2{
+    margin-top: 0rem;
+    margin-bottom: 1.2rem;
+  }
   .Main-footer{
     display: block;
     padding-right: 1rem;
+    margin-top: 0rem;
   }
   .Main-footerlink{
     margin: -1rem;
