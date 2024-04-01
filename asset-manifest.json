@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9d19d60.css",
+    "main.js": "/static/js/main.3d44f586.js",
+    "static/js/787.33e78f69.chunk.js": "/static/js/787.33e78f69.chunk.js",
+    "static/media/team-photo.JPG": "/static/media/team-photo.b1c6204cc0ee18339d62.JPG",
+    "static/media/derek.JPG": "/static/media/derek.30e9349fe58c02d00594.JPG",
+    "static/media/alisson.JPG": "/static/media/alisson.e9bf30c9ec74bc363ecd.JPG",
+    "static/media/porfi.JPG": "/static/media/porfi.93f11f278836c1783301.JPG",
+    "static/media/noor.JPG": "/static/media/noor.461341e8b7ada7cb3dfe.JPG",
+    "static/media/background.png": "/static/media/background.ede769a2176824ac7989.png",
+    "static/media/akhil.JPG": "/static/media/akhil.2da83b52a10f3f4d234d.JPG",
+    "static/media/laith.JPG": "/static/media/laith.8bc70ed9b3cb3d6f3702.JPG",
+    "static/media/mo.JPG": "/static/media/mo.8a8c682f86608375b0d9.JPG",
+    "static/media/jet.JPG": "/static/media/jet.9d4faee3a3430e39215f.JPG",
+    "static/media/shyam.JPG": "/static/media/shyam.ab4a0d3e5458068b8f2e.JPG",
+    "static/media/lauren.jpg": "/static/media/lauren.5e02914aa3521f325759.jpg",
+    "static/media/ucmmap.svg": "/static/media/ucmmap.5a3c76acca29837473ff76e9120c6f39.svg",
+    "static/media/sponsor_logos.png": "/static/media/sponsor_logos.9ff8466cea83430b518f.png",
+    "static/media/princess.jpeg": "/static/media/princess.88e1c2f2f2fe98102f62.jpeg",
+    "static/media/health.png": "/static/media/health.50e43a07c65d69f6e36c.png",
+    "static/media/ag.png": "/static/media/ag.c2809d172e8b342e2d26.png",
+    "static/media/vr.png": "/static/media/vr.2ea04a058c672801e1f9.png",
+    "static/media/instagram 1.svg": "/static/media/instagram 1.ddf6e73af9b8018756f20628d350a4c2.svg",
+    "static/media/discord 1.svg": "/static/media/discord 1.245ca9220fe141cb14bff79dcbf009ab.svg",
+    "static/media/question.svg": "/static/media/question.2d8d2f0b399ebccea1ed8b76cb989a9a.svg",
+    "static/media/facebook 1.svg": "/static/media/facebook 1.23b1f9f017a746316b0cbfc7f32f2aa8.svg",
+    "index.html": "/index.html",
+    "static/media/Vector 1.svg": "/static/media/Vector 1.585114fdd7b0cd96479f326eeaccf89f.svg",
+    "static/media/arrow_right.svg": "/static/media/arrow_right.797afb4bb4bfd0b5293bba1cdb904dd4.svg",
+    "main.f9d19d60.css.map": "/static/css/main.f9d19d60.css.map",
+    "main.3d44f586.js.map": "/static/js/main.3d44f586.js.map",
+    "787.33e78f69.chunk.js.map": "/static/js/787.33e78f69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9d19d60.css",
+    "static/js/main.3d44f586.js"
+  ]
+}
