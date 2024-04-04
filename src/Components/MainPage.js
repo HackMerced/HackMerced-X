@@ -6,9 +6,9 @@ function MainPage() {
               <div className="Main-text">
                 <h1 className="Main-title">HackMerced X</h1>
                 <p className="Main-subtitle">
-                  Thank you for attending the largest hackathon in the San Joaquin Valley
+                  Thank you for attending HackMerced IX the largest hackathon in the San Joaquin Valley
                   <br/>
-                  Coming Soon 2025 @ UC Merced
+                  HackMerced X Coming Soon 2025 @ UC Merced
                 </p>
                 <p className="Main-subtitle">
                   Applications to join our team are Open!
