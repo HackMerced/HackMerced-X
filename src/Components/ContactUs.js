@@ -58,8 +58,11 @@ const ContactPage = () => {
             <Box
               sx={{
                 mt: 3,
-                bgcolor: 'background.paper',
                 borderRadius: 1,
+                minHeight: 280,
+                display: 'flex',
+                flexDirection: 'column',
+                bgcolor: 'background.paper',
                 padding: (theme) =>
                   `${theme.spacing(2)} ${theme.spacing(2)} 0 ${theme.spacing(
                     2
@@ -68,13 +71,13 @@ const ContactPage = () => {
             >
               <iframe
                 src="https://tally.so/embed/nPYQEB?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                style={{ flexGrow: 1 }}
                 title="Contact Us"
                 loading="lazy"
                 width="100%"
                 frameBorder={0}
                 marginHeight={0}
                 marginWidth={0}
-                height={495}
               />
             </Box>
           </Container>
