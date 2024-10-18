@@ -604,7 +604,7 @@ a {
 
 .Hacktually-Grid {
   display:grid;
-  grid-template-columns:repeat(2, minmax(20vw, 30vw)); /* minmax() for responsivity */
+  grid-template-columns:repeat(2, minmax(20vw, 30vw));
   grid-template-rows:3;
   column-gap: 10vw;
   row-gap: 8vw;
@@ -824,13 +824,17 @@ a {
   #mlh-trust-badge img{
     width:max-content;
   }
+  .Hacktually {
+    height:fit-content !important;
+  }
   .Hacktually-info {
-    padding:10px;
+    padding:30px;
     border-radius:4px !important;
   }
   .Hacktually-Grid {
-    column-gap: 10vw;
+    column-gap: 5vw;
+    grid-template-columns: repeat(2, 40vw);
     row-gap: 8vw;
-    margin:5vw 0 0 10vw;
+    margin:5vw 0 0 8vw;
   }
 }
