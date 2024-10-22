@@ -2,7 +2,7 @@ import React from 'react';
 import MainPage from './MainPage.js';
 import Tracks from './Tracks.js';
 import FAQ from './FAQ.js';
-import Sponsors from './Sponsors.js';
+// import Sponsors from './Sponsors.js';
 
 function HomePage() {
   return (
@@ -10,7 +10,7 @@ function HomePage() {
       <MainPage/>
       <Tracks/>
       <FAQ/>
-      <Sponsors/>
+      {/* <Sponsors/> */}
     </div>
   );
 }
