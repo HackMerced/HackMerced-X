@@ -1,10 +1,12 @@
 # Setting Up a GitHub Codespace
 
 1. Create a codespace on GitHub. (They are also refered to as `containers`)
+------
+## If `.devcontainer/devcontainer.json` doesn't exist
 
-2. Make a `.devcontainer` folder and create a `devcontainer.json` file inside it.
+1. Make a `.devcontainer` folder and create a `devcontainer.json` file inside it.
 
-3. Copy and paste the following JSON into the `devcontainer.json` file:
+2. Copy and paste the following JSON into the `devcontainer.json` file:
 
     ```json
     {
@@ -14,9 +16,9 @@
         "postCreateCommand": "npm install"
     }
     ```
+------
+3. Press `Ctrl + Shift + P`, type **Rebuild** to rebuild your container, and select **Full Rebuild**.
 
-4. Press `Ctrl + Shift + P`, type **Rebuild** to rebuild your container, and select **Full Rebuild**.
+2. Run `npm install` if the container hasn't already executed the command.
 
-5. Run `npm install` if the container hasn't already executed the command.
-
-6. Use `npm start` to application.
+3. Use `npm start` to application.
