@@ -604,13 +604,14 @@ a {
 
 .Hacktually-Grid {
   display:grid;
-  grid-template-columns:repeat(2, minmax(20vw, 30vw));
+  grid-template-columns:repeat(2, minmax(20vw, 35vw));
   grid-template-rows:3;
   column-gap: 10vw;
   row-gap: 8vw;
-  margin:5vw 0 0 15vw;
+  margin:5vw 0 0 10vw;
   justify-items:center;
   align-items:center;
+  font-size:1.2em;
 }
 
 .Hacktually-title {
@@ -836,5 +837,6 @@ a {
     grid-template-columns: repeat(2, 40vw);
     row-gap: 8vw;
     margin:5vw 0 0 8vw;
+    font-size:1em;
   }
 }

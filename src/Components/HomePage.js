@@ -9,8 +9,8 @@ function HomePage() {
   return (
     <div>
       <MainPage/>
-      <Tracks/>
       <Hacktually/>
+      <Tracks/>
       <FAQ/>
       <Sponsors/>
     </div>
