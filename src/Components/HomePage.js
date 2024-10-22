@@ -2,7 +2,7 @@ import React from 'react';
 import MainPage from './MainPage.js';
 import Tracks from './Tracks.js';
 import FAQ from './FAQ.js';
-import Sponsors from './Sponsors.js';
+// import Sponsors from './Sponsors.js';
 import Hacktually from './Hacktually.js';
 
 function HomePage() {
@@ -12,7 +12,7 @@ function HomePage() {
       <Hacktually/>
       <Tracks/>
       <FAQ/>
-      <Sponsors/>
+      {/* <Sponsors/> */}
     </div>
   );
 }
