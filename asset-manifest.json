@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f9d19d60.css",
-    "main.js": "/static/js/main.6f613163.js",
+    "main.js": "/static/js/main.4d2226a8.js",
     "static/js/787.33e78f69.chunk.js": "/static/js/787.33e78f69.chunk.js",
     "static/media/team-photo.JPG": "/static/media/team-photo.b1c6204cc0ee18339d62.JPG",
     "static/media/derek.JPG": "/static/media/derek.30e9349fe58c02d00594.JPG",
@@ -16,11 +16,7 @@
     "static/media/shyam.JPG": "/static/media/shyam.ab4a0d3e5458068b8f2e.JPG",
     "static/media/lauren.jpg": "/static/media/lauren.5e02914aa3521f325759.jpg",
     "static/media/ucmmap.svg": "/static/media/ucmmap.5a3c76acca29837473ff76e9120c6f39.svg",
-    "static/media/sponsor_logos.png": "/static/media/sponsor_logos.9ff8466cea83430b518f.png",
     "static/media/princess.jpeg": "/static/media/princess.88e1c2f2f2fe98102f62.jpeg",
-    "static/media/health.png": "/static/media/health.50e43a07c65d69f6e36c.png",
-    "static/media/ag.png": "/static/media/ag.c2809d172e8b342e2d26.png",
-    "static/media/vr.png": "/static/media/vr.2ea04a058c672801e1f9.png",
     "static/media/instagram 1.svg": "/static/media/instagram 1.ddf6e73af9b8018756f20628d350a4c2.svg",
     "static/media/discord 1.svg": "/static/media/discord 1.245ca9220fe141cb14bff79dcbf009ab.svg",
     "static/media/question.svg": "/static/media/question.2d8d2f0b399ebccea1ed8b76cb989a9a.svg",
@@ -29,11 +25,11 @@
     "static/media/Vector 1.svg": "/static/media/Vector 1.585114fdd7b0cd96479f326eeaccf89f.svg",
     "static/media/arrow_right.svg": "/static/media/arrow_right.797afb4bb4bfd0b5293bba1cdb904dd4.svg",
     "main.f9d19d60.css.map": "/static/css/main.f9d19d60.css.map",
-    "main.6f613163.js.map": "/static/js/main.6f613163.js.map",
+    "main.4d2226a8.js.map": "/static/js/main.4d2226a8.js.map",
     "787.33e78f69.chunk.js.map": "/static/js/787.33e78f69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9d19d60.css",
-    "static/js/main.6f613163.js"
+    "static/js/main.4d2226a8.js"
   ]
 }
