@@ -1,3 +1,5 @@
+import React from 'react';
+
 //author: Alisson Ross
 import Team from './Team.js'
 import AboutHackMerced from './AboutHackMerced.js';
