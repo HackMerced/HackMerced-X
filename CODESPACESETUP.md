@@ -16,9 +16,9 @@
         "postCreateCommand": "npm install"
     }
     ```
-------
-3. Press `Ctrl + Shift + P`, type **Rebuild** to rebuild your container, and select **Full Rebuild**.
 
+3. Press `Ctrl + Shift + P`, type **Rebuild** to rebuild your container, and select **Full Rebuild**.
+------
 2. Run `npm install` if the container hasn't already executed the command.
 
 3. Use `npm start` to application.
