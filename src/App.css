@@ -194,17 +194,15 @@ a {
 .NavBar{
   position: sticky;
   width: 100%;
-  height: 1.5rem;
+  display: flex;
+  justify-content: end;
   align-content: center;
-  padding-bottom:3rem;
   background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
   z-index: 2;
 }
 .nav-items{
   display: flex;
-  align-items: baseline;
-  position: absolute;
-  right: 1rem;
+  align-items: center;
   margin-top: 0.8rem;
 }
 
@@ -228,7 +226,7 @@ a {
 }
 .registerButton{
   background-color: #342153;
-  border: 0.12rem solid #342153;
+  border: 0.18rem solid #342153;
   border-radius: 3rem;
   padding:0.8rem;
   padding-bottom: 1rem;
@@ -682,11 +680,11 @@ a {
     padding-left: 1rem;
   }
   .NavBar{
-    display: flex;
-    align-items: center;
+    justify-content: center;
   }
   .nav-items{
-    margin-top: 3.5em;
+  margin: 0;
+    padding: 0.5em;
 
   }
   .nav-items > li{
@@ -698,14 +696,7 @@ a {
     border-radius: 3rem;
     padding: 0.5rem;
     text-align: center;
-    font-size: 1em;
     width: 4rem;
-  }
-  .registerButton:hover{
-    background-color: #FFFFFF;
-    color:#AD0624;
-    border: 0.18rem solid #AD0624;
-    cursor: pointer;
   }
   .registerButton2{
     margin: 2rem;
