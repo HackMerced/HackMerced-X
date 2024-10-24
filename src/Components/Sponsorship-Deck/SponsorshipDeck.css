@@ -1,0 +1,69 @@
+/* First Page CSS */
+.contain-first-page {
+    width: 100%;
+    height: 90dvh;
+    display: flex;
+}
+
+.first-page--left-side {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.contain-gradients {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient1 {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#6D0871, #FF5C01);
+    opacity: 100%;
+    position: inherit;
+
+}
+.gradient2 {
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(#D77B26, #C0593A, #342153);
+    opacity: 85%;
+    position: inherit;
+}
+
+.hackmerced-tower {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: -600px;
+    left: 100px;
+    animation: slide .8s ease-in-out forwards;
+    /*animation: bop 4s ease-in-out infinite;*/
+    z-index: 1001;
+}
+
+.background-buildings {
+    object-fit: cover;
+    z-index: 1000;
+    animation: bop 4s ease-in-out infinite;
+    position: absolute;
+}
+
+@keyframes slide {
+    100% {
+        bottom: 0px;
+    }
+}
+
+.first-page--right-side {
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(#2f1313, #541616,#7d1919);
+    border-image: linear-gradient(to right, #D77B26 0%, #C0593A 50%, #342153 75%) 1;
+    border-width: 10px;
+    border-style: solid;
+}
