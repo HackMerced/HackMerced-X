@@ -5,7 +5,7 @@
     display: flex;
 }
 
-.first-page--left-side {
+.first-page--box {
     height: 100%;
     width: 50%;
     overflow: hidden;
@@ -41,7 +41,7 @@
     position: absolute;
     bottom: -600px;
     left: 100px;
-    animation: slide .8s ease-in-out forwards;
+    animation: pop-up .8s ease-in-out forwards;
     /*animation: bop 4s ease-in-out infinite;*/
     z-index: 1001;
 }
@@ -49,21 +49,67 @@
 .background-buildings {
     object-fit: cover;
     z-index: 1000;
-    animation: bop 4s ease-in-out infinite;
     position: absolute;
+    right: -50px;
 }
 
-@keyframes slide {
+.background-buildings2 {
+    position: absolute;
+    object-fit: cover;
+    z-index: 1000;
+}
+
+.text-contents {
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+    color: #FFFF;
+    font-family: sans-serif;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.social-link {
+    display: flex;
+    position: relative;
+    align-items: center;
+    right: -500px;
+}
+
+.socials-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.text-contents :nth-child(1) {
+    animation: slide-left 1s ease-in-out forwards;
+}
+
+.text-contents :nth-child(2) {
+    animation: slide-left 1.2s ease-in-out forwards;
+}
+
+.text-contents :nth-child(3) {
+    animation: slide-left 1.4s ease-in-out forwards;
+}
+
+
+
+
+
+
+/* Animations */
+@keyframes pop-up {
     100% {
         bottom: 0px;
     }
 }
 
-.first-page--right-side {
-    height: 100%;
-    width: 50%;
-    background: linear-gradient(#2f1313, #541616,#7d1919);
-    border-image: linear-gradient(to right, #D77B26 0%, #C0593A 50%, #342153 75%) 1;
-    border-width: 10px;
-    border-style: solid;
+@keyframes slide-left {
+    100% {
+        right: 0px;
+    }
 }
