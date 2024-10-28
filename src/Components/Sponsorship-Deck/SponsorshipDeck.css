@@ -117,6 +117,67 @@
 
 
 
+
+
+/* Second Page CSS */
+.contain-second-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(#D77B26, #C0593A, #342153);
+    align-items: center;
+    overflow-x: hidden;
+    padding: 25px 0 50px 0;
+}
+
+.contain-second-page h1 {
+    font-size: 32px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.second-page-text-line {
+    width: 100%;
+    height: 256px;
+    position: relative;
+    margin: 10px 0 10px 0;
+}
+
+.second-page-text-box1 {
+    background: #342153;
+    height: 100%;
+    width: 420px;
+    position: absolute;
+    right: 60px;
+    border-radius: 25px;
+    animation: hover 2.6s ease-in-out infinite;
+}
+
+.second-page-text-box2 {
+    background: #342153;
+    height: 100%;
+    width: 505px;
+    position: absolute;
+    left: 60px;
+    border-radius: 25px;
+    animation: hover 2.8s ease-in-out infinite;
+}
+
+.second-page-text-box3 {
+    background: #342153;
+    height: 100%;
+    width: 510px;
+    position: absolute;
+    right: 60px;
+    border-radius: 25px;
+    animation: hover 3s ease-in-out infinite;
+}
+
+
+
+
+
+
 /* Animations */
 @keyframes pop-up {
     100% {
@@ -127,5 +188,23 @@
 @keyframes slide-left {
     100% {
         right: 0px;
+    }
+}
+
+@keyframes hover {
+    0% {
+        bottom: -20px;
+    }
+    25% {
+        bottom: -10px;
+    }
+    50% {
+        bottom: -20px;
+    }
+    75% {
+        bottom: -10px;
+    }
+    100% {
+        bottom: -20px;
     }
 }
