@@ -1,3 +1,4 @@
+import React from 'react';
 function Hacktually() {
     return (
       <div className="Hacktually" id="hacktually">

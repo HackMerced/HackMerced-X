@@ -9,7 +9,7 @@ const ThirdPage = () => {
         <section className='contain-third-page'>
             <h1>Sponsorship Options</h1>
             <div className='sponsor-tiers'>
-                <img src={bronze} />
+                <img src={bronze} alt='bronze-tier-icon' />
                 <div className='tier-description'>
                     <h3>Bronze Tier ($500+)</h3>
                     <div className='tier-items'>
@@ -26,7 +26,7 @@ const ThirdPage = () => {
                 </div>
             </div>
             <div className='sponsor-tiers'>
-                <img src={silver} />
+                <img src={silver} alt='silver-tier-icon' />
                 <div className='tier-description'>
                     <h3>Silver Tier ($1000+)</h3>
                     <div className='tier-items'>
@@ -42,7 +42,7 @@ const ThirdPage = () => {
                 </div>
             </div>
             <div className='sponsor-tiers'>
-                <img src={gold} />
+                <img src={gold} alt='gold-tier-icon' />
                 <div className='tier-description'>
                     <h3>Gold Tier ($2500+)</h3>
                     <div className='tier-items'>
@@ -58,7 +58,7 @@ const ThirdPage = () => {
                 </div>
             </div>
             <div className='sponsor-tiers'>
-                <img src={platinum} />
+                <img src={platinum} alt='platinum-tier-icon' />
                 <div className='tier-description'>
                     <h3>Platinum Tier ($4500+)</h3>
                     <div className='tier-items'>
