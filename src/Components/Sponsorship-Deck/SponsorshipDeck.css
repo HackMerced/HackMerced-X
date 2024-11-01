@@ -211,6 +211,10 @@
     text-shadow: -1px -1px 0 #C37705, 1px -1px 0 #C37705, -1px 1px 0 #C37705, 1px 1px 0 #C37705;
 }
 
+.contain-third-page span {
+    color: white;
+}
+
 .sponsor-tiers {
     width: 100%;
     height: 256px;
