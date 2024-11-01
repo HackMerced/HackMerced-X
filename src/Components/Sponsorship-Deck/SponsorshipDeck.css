@@ -134,6 +134,11 @@
     font-size: 32px;
     color: white;
     font-family: sans-serif;
+    text-shadow: -1px -1px 0 #C37705, 1px -1px 0 #C37705, -1px 1px 0 #C37705, 1px 1px 0 #C37705;
+}
+
+.contain-second-page p {
+    font-size: 24px;
 }
 
 .second-page-text-line {
@@ -141,6 +146,8 @@
     height: 256px;
     position: relative;
     margin: 10px 0 10px 0;
+    color: #FFFF;
+    font-family: sans-serif;
 }
 
 .second-page-text-box1 {
@@ -151,6 +158,8 @@
     right: 60px;
     border-radius: 25px;
     animation: hover 2.6s ease-in-out infinite;
+    text-align: center;
+    padding: 0 20px 0 20px;
 }
 
 .second-page-text-box2 {
@@ -161,6 +170,11 @@
     left: 60px;
     border-radius: 25px;
     animation: hover 2.8s ease-in-out infinite;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .second-page-text-box3 {
@@ -171,6 +185,11 @@
     right: 60px;
     border-radius: 25px;
     animation: hover 3s ease-in-out infinite;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
