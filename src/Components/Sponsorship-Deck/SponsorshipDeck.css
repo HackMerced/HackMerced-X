@@ -121,12 +121,10 @@
 
 /* Second Page CSS */
 .contain-second-page {
-    width: 100%;
     display: flex;
     flex-direction: column;
     background: radial-gradient(#D77B26, #C0593A, #342153);
     align-items: center;
-    overflow-x: hidden;
     padding: 25px 0 50px 0;
 }
 
@@ -199,12 +197,10 @@
 
 /* Third Page CSS */
 .contain-third-page {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(-80deg, #342153 5%, #C0593A, #342153);
+    background: linear-gradient(-80deg, #D77B26 5%, #C0593A, #342153);
     align-items: center;
-    overflow-x: hidden;
     padding: 25px 0 50px 0;
 }
 
@@ -218,21 +214,54 @@
 .sponsor-tiers {
     width: 100%;
     height: 256px;
-    margin: 10px 0 10px 0;
     color: #FFFF;
     font-family: sans-serif;
-    border: 1px solid blue;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
-.sponsor-tiers h3 {
-    margin-left: 30px;
+.sponsor-tiers img {
+    margin: 0 50px 0 50px;
+}
+
+.tier-description {
+    width: 100%;
+}
+
+.tier-description h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
 }
 
 .tier-items {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+}
+
+.tier-items-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tier-items-row div {
     margin-right: 30px;
+    box-shadow: 0 0 5px black;
+}
+
+.text-background {
+    background: #1C0235;
+    border-radius: 23px;
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    font-weight: 300;
 }
 
 
