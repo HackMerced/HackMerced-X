@@ -336,11 +336,36 @@
 
 
 
-
-
-
     /* Responsive Second Page */
+    @media (max-width: 705px) {
+        .contain-second-page h1 { 
+            font-size: clamp(23px, 1rem + 2vw, 32px);
+        }
 
+        .contain-second-page h2 {
+            font-size: clamp(12px, 1rem + 1.5vw, 24px);
+        }
+
+        .contain-second-page p {
+            font-size: clamp(12px, 1rem + 1.5vw, 24px);
+        }
+
+        .second-page-text-line {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+        }
+
+        .second-page-text-box1, .second-page-text-box2, .second-page-text-box3 {
+            width: clamp(100px, 100vw, 420px);
+            right: 0;
+            left: 0;
+            position: relative;
+            margin: 0 10px 0 10px;
+            height: auto;
+        }
+    }
 
 
 
