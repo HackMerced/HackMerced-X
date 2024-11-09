@@ -259,15 +259,15 @@
 .text-background {
     background: #1C0235;
     border-radius: 23px;
-    height: 40px;
     width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     text-align: center;
-    padding: 5px 20px 5px 20px;
     font-weight: 300;
+    padding: 0 20px 0 20px;
 }
 
 
@@ -369,6 +369,23 @@
 
 
 
-
-
     /* Responsive Third Page */
+    @media (max-width: 809px) {
+        .tier-items-row {
+            flex-wrap: wrap;
+            margin: 0;
+        }
+
+        .text-background {
+            margin: 5px 0 5px 0;
+        }
+
+        .sponsor-tiers {
+            height: auto;
+            margin: 30px 0 30px 0;
+        }
+
+        .contain-third-page span {
+            text-align: center;
+        }
+    }
