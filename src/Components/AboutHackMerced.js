@@ -1,3 +1,4 @@
+import React from 'react';
 import TeamPhoto from '../Assets/team-photo.JPG';
 import { Card } from '@mui/material';
 export default function AboutHackMerced(){

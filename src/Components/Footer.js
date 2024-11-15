@@ -1,3 +1,4 @@
+import React from 'react';
 import Facebook from '../Assets/facebook 1.svg';
 import Instagram from '../Assets/instagram 1.svg';
 import Discord from '../Assets/discord 1.svg';

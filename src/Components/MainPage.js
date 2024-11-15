@@ -1,3 +1,4 @@
+import React from 'react';
 function MainPage() {
   // function scrollToHacktually() {
     // document.getElementById('hacktually').scrollIntoView({behavior: 'smooth', block:'end', alignToTop:false})

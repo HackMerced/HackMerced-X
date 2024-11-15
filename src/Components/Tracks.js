@@ -1,3 +1,4 @@
+import React from 'react';
 import { Card } from "@mui/material";
 import Question from "../Assets/question.svg";
 function Tracks() {
