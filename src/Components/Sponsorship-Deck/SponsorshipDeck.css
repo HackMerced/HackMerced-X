@@ -78,6 +78,10 @@
     top: 50px;
 }
 
+.first-box-text {
+    right: 60px;
+}
+
 .social-link {
     display: flex;
     position: relative;
@@ -108,10 +112,6 @@
 
 .first-page-link-2 {
     animation: slide-left 1.2s ease-in-out forwards;
-}
-
-.first-page-link-3 {
-    animation: slide-left 1.4s ease-in-out forwards;
 }
 
 
@@ -312,6 +312,12 @@
 
 /* Responsive Media Queries */
     /* Responsive First Page */
+    @media (min-width: 982px) {
+        .first-box-text {
+            display: none;
+        }
+    }
+
     @media (max-width: 981px) {
         .first-page-box {
             width: 100%;
@@ -331,6 +337,11 @@
 
         .hackmerced-tower {
             left: 0;
+        }
+
+        .first-box-text {
+            right: 0px;
+            left: 30px;
         }
     }
 
