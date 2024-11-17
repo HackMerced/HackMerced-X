@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.8",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.16.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start --host 0.0.0.0 --port 3000",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -45,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.37.1",
     "gh-pages": "^5.0.0"
   }
