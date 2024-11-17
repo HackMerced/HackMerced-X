@@ -6,6 +6,7 @@ import HomePage from './Components/HomePage.js';
 import AboutUs from './Components/AboutUs';
 import ContactUs from './Components/ContactUs.js';
 import Footer from './Components/Footer.js';
+import SponsorshipDeck from './Components/Sponsorship-Deck/SponsorshipDeck.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<HomePage />}/>
           <Route path="/aboutus" element={<AboutUs/>}/>
           <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/sponsorus" element={<SponsorshipDeck />} />
         </Routes>
         <Footer/>
       </div>

@@ -200,7 +200,7 @@ a {
   position: sticky;
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-content: center;
   background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
   z-index: 2;
