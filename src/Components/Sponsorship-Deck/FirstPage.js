@@ -1,8 +1,7 @@
 import React from 'react';
 import HackMercedTower from './assets/hackmerced-tower.png';
 import BackgroundBuildings from './assets/background-buildings.png';
-import { FaDiscord } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
+import { FaDiscord, FaInstagram } from "react-icons/fa6";
 
 const FirstPage = () => {
     return (
