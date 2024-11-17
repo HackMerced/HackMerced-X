@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import SponsorLogo from '../Assets/sponsor_logos.png';
 
 function Sponsors() {
