@@ -50,6 +50,7 @@ a {
 .Track-Card, .About-HM-Desc, .Team-photo{
   box-shadow: inset rgb(49, 49, 49) 0px 0px 60px -12px;
   background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
+
   width: 20vw;
   padding:2em;
   padding-top: 5vh;
@@ -60,6 +61,9 @@ a {
   border-style: groove;
   border-radius: 0 !important;
   position: relative;
+}
+.Tracks-Flex .css-1j74uew-MuiPaper-root-MuiCard-root {
+  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
 }
 .Track-Name{
   color:#FF5E54;
@@ -131,6 +135,7 @@ a {
   width: 80vw;
 }
 
+
 .FAQ-grid{
   margin: 0;
 }
@@ -146,11 +151,11 @@ a {
 
 .FAQ-accordion{
   border: 2px solid #E0B8FF;
-  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);;
 }
 
 .FAQ-container .FAQ-accordion.MuiAccordion-root {
   border-radius: 1.875em;
+  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
 }
 
 .FAQ-summary{
@@ -180,7 +185,7 @@ a {
   color: white;
   text-align: left;
   margin: 0;
-}
+} 
 
 @keyframes App-logo-spin {
   from {
@@ -568,11 +573,16 @@ a {
 .About-HM-Contents{
   display:flex;
 }
-.About-HM-Desc{
+.About-HM-Desc {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.About-HM-Contents .css-1j74uew-MuiPaper-root-MuiCard-root{
+  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
+}
+
+
 .About-HM-Text{
   padding: 0;
   font-size: large;
