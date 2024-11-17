@@ -28,7 +28,7 @@ function MainPage() {
                     <p class="starBurst3">🌟</p>
                   </div> */}
                 </a>
-                <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji">📧</p></a></p>
+                <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji"><span role="img" aria-label="email">📧</span></p></a></p>
                 </div>
             </div>
       </div>

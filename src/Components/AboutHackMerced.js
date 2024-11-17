@@ -20,7 +20,7 @@ export default function AboutHackMerced(){
                         culminating in the San Joaquin Valley.</div>
                         
                     </Card>
-                    <img className='Team-photo' src={TeamPhoto} alt="HackMerced Team Photo"/>
+                    <img className='Team-photo' src={TeamPhoto} alt="HackMerced Team"/>
                 </div>
             </div>
         </div>
