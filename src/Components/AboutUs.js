@@ -1,5 +1,3 @@
-import React from 'react';
-
 //author: Alisson Ross
 import React from 'react';
 import Team from './Team.js'
