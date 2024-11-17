@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc1f135d.css",
-    "main.js": "/static/js/main.5835fcd4.js",
-    "static/js/787.33e78f69.chunk.js": "/static/js/787.33e78f69.chunk.js",
+    "main.css": "/static/css/main.7d8e6b2f.css",
+    "main.js": "/static/js/main.d8bf8e67.js",
+    "static/js/496.c7c76753.chunk.js": "/static/js/496.c7c76753.chunk.js",
     "static/media/team-photo.JPG": "/static/media/team-photo.b1c6204cc0ee18339d62.JPG",
     "static/media/derek.JPG": "/static/media/derek.30e9349fe58c02d00594.JPG",
     "static/media/alisson.JPG": "/static/media/alisson.e9bf30c9ec74bc363ecd.JPG",
@@ -15,8 +15,10 @@
     "static/media/jet.JPG": "/static/media/jet.9d4faee3a3430e39215f.JPG",
     "static/media/shyam.JPG": "/static/media/shyam.ab4a0d3e5458068b8f2e.JPG",
     "static/media/lauren.jpg": "/static/media/lauren.5e02914aa3521f325759.jpg",
+    "static/media/background-buildings.png": "/static/media/background-buildings.5a49afed817462164433.png",
     "static/media/ucmmap.svg": "/static/media/ucmmap.5a3c76acca29837473ff76e9120c6f39.svg",
     "static/media/princess.jpeg": "/static/media/princess.88e1c2f2f2fe98102f62.jpeg",
+    "static/media/hackmerced-tower.png": "/static/media/hackmerced-tower.06913f705c04ff3fab04.png",
     "static/media/instagram 1.svg": "/static/media/instagram 1.ddf6e73af9b8018756f20628d350a4c2.svg",
     "static/media/discord 1.svg": "/static/media/discord 1.245ca9220fe141cb14bff79dcbf009ab.svg",
     "static/media/question.svg": "/static/media/question.2d8d2f0b399ebccea1ed8b76cb989a9a.svg",
@@ -24,12 +26,12 @@
     "index.html": "/index.html",
     "static/media/Vector 1.svg": "/static/media/Vector 1.585114fdd7b0cd96479f326eeaccf89f.svg",
     "static/media/arrow_right.svg": "/static/media/arrow_right.797afb4bb4bfd0b5293bba1cdb904dd4.svg",
-    "main.cc1f135d.css.map": "/static/css/main.cc1f135d.css.map",
-    "main.5835fcd4.js.map": "/static/js/main.5835fcd4.js.map",
-    "787.33e78f69.chunk.js.map": "/static/js/787.33e78f69.chunk.js.map"
+    "main.7d8e6b2f.css.map": "/static/css/main.7d8e6b2f.css.map",
+    "main.d8bf8e67.js.map": "/static/js/main.d8bf8e67.js.map",
+    "496.c7c76753.chunk.js.map": "/static/js/496.c7c76753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc1f135d.css",
-    "static/js/main.5835fcd4.js"
+    "static/css/main.7d8e6b2f.css",
+    "static/js/main.d8bf8e67.js"
   ]
 }
