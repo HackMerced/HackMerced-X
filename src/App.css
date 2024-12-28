@@ -265,6 +265,15 @@ a {
   overflow-x:hidden;
  justify-content: center;
 }
+
+.Main-hackmerced-tower{
+  /* border: red solid 3px; */
+  position: absolute;
+  top: 20%;
+  left: 3rem;
+  z-index: 0;
+}
+
 .Main-text-background{
   width: 100vw;
   height: 90vh;
@@ -280,9 +289,11 @@ a {
   align-items: center;
   justify-content: center;
   height: inherit;
+  z-index: 2;
 }
 .Main-title{
   color:#FFFFFF;
+  z-index: 2;
   transition-duration: 0.4s;
   animation: glide-in 0.2s ease-out 1;
 }
@@ -307,6 +318,7 @@ a {
   text-align: center;
   animation: glide-in 0.3s ease-out 1;
   margin: 1rem;
+  z-index: 2;
 }
 .Main-sub2{
   font-style: small;
@@ -316,6 +328,7 @@ a {
   display: flex;
   align-items: center;
   color: #FFFFFF;
+  z-index: 2;
 }
 .Main-footer{
   font-style: normal;
@@ -326,6 +339,7 @@ a {
   align-items: center;
   color: #FFFFFF;
   animation: glide-in 0.5s ease-out 1;
+  z-index: 2;
 }
 .Main-footerlink{
   font-style: normal;
@@ -338,6 +352,7 @@ a {
   padding-left: 5px;
   text-decoration: wavy;
   animation: glide-in 0.6s ease-out 1;
+  z-index: 2;
 }
 .emailEmoji{
   padding-left: 0.4rem;
@@ -664,6 +679,9 @@ a {
   .Main-video:-webkit-scrollbar {
     display: none;
    
+  }
+  .Main-hackmerced-tower{
+    opacity: 20%;
   }
   .Main-text-background{
     padding: inherit;
