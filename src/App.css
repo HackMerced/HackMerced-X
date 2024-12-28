@@ -138,6 +138,11 @@ a {
 .Tracks-Flex .css-1j74uew-MuiPaper-root-MuiCard-root {
   background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
 }
+.Tracks-Flex .Track-Card {
+  background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%) !important;
+}
+
+
 .Track-Name{
   /* color:#FF5E54; */
   color: var(--orange-font-color);

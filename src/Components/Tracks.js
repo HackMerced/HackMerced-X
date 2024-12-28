@@ -8,7 +8,7 @@ function Tracks() {
             <div className="Tracks-Flex">
                 {["Tracks", "Coming", "Soon"].map((title) => (
                     <Card
-                        style={{ borderRadius: "30px" }}
+                        style={{ borderRadius: "30px"}}
                         className="Track-Card"
                     >
                         <img
