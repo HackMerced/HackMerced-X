@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
 :root{
 
   
@@ -61,6 +64,8 @@
   --hacktually-infobox: rgba(255, 255, 255, 0.5); /*have not changed these*/
   --hacktually-info: rgba(255, 255, 255, 0.2);
 
+  --font-family: 'Rajdhani';
+
 }
 
 .html{
@@ -68,7 +73,7 @@
 }
 .App {
   min-height: 100vh;
-  font-family: 'K2D';
+  font-family: var(--font-family);
 }
 
 .App-link {
@@ -98,7 +103,7 @@ a {
 }
 .Tracks-title, .About-HM-Title, .Hacktually-title {
   margin-top: 0;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight:bold;
   margin-bottom: 2em;
   margin-left: 11%;
@@ -136,12 +141,12 @@ a {
 .Track-Name{
   /* color:#FF5E54; */
   color: var(--orange-font-color);
-  font-family: 'K2D';
+  font-family: var(--font-family);
 }
 .Track-Text, .About-HM-Text{
   padding-top: 2vh;
   margin:1vw;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 50;
   font-size: 0.9em;
@@ -180,7 +185,7 @@ a {
 .Sponsors-Description{
   left: 10vw;
   position: absolute;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 1.2em;
@@ -189,7 +194,7 @@ a {
 }
 .Sponsors-title{
   margin-top: 0;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: normal;
   padding-top: 3em;
   text-align: left;
@@ -215,7 +220,7 @@ a {
 }
 
 .FAQ-container .title{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: normal;
   width: fit-content;
   margin-top: 0;
@@ -248,7 +253,7 @@ a {
 }
 
 .accordion-title{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: bold;
   font-size: 1em;
   /* color: white; */
@@ -258,7 +263,7 @@ a {
 }
 
 .accordion-description{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-style: normal;
   font-size: 0.9em;
   /* color: white; */
@@ -293,7 +298,7 @@ a {
 }
 
 .nav-items .button, .nav-items .registerButton{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: bold;
   font-size: 1em;
   width:fit-content;
@@ -478,7 +483,7 @@ a {
 }
 
 .registerButton2{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: bold;
   font-size: 2rem;
   /* background-color: #342153;  */
@@ -620,7 +625,7 @@ a {
   padding-bottom: 2rem;
   /* color: white; */
   color: var(--main-white);
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 0.9em;
@@ -660,7 +665,7 @@ a {
 }
 .Team-container .title{
     height: 10vh;
-    font-family: 'K2D';
+    font-family: var(--font-family);
     font-weight: normal;
     width: fit-content;
     margin-top: 0rem;
@@ -695,7 +700,7 @@ a {
 .Team-Name{
   /* color: #FFFFFF; */
   color: var(--main-white);
-  font-family: 'K2D';
+  font-family: var(--font-family);
 }
 /*CONTACT US*/
 .Contact-Us-container{
