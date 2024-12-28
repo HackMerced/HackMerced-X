@@ -2,7 +2,7 @@
 // import this everywhere, need to look into for a fix
 import React from 'react';
 // import TeamPhoto from '../Assets/team-photo.JPG';
-import TeamPhoto from '..//Assets/Team/HM10Team/Team.webp';
+import TeamPhoto from '..//Assets/Team/HM10Team/Team2.webp';
 
 import { Card } from '@mui/material';
 export default function AboutHackMerced(){
