@@ -721,6 +721,9 @@ a {
 .css-q8lpi9 {
   background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
 }
+MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root Track-Card css-q8lpi9{
+  background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
+}
 .About-HM-Contents .css-1j74uew-MuiPaper-root-MuiCard-root{
   /* background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%); */
   background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
