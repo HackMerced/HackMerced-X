@@ -1,29 +1,99 @@
 
 @import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+
+  
+  /*HackMerced IX Colors*/
+  /* --primary-purple: #342153;
+  --primary-orange: #C0593A;
+  --lighter-orange: #CF8139;
+
+  --secondary-red: #B01F69; /*linear gradient on navbar
+  --secondary-purple: #301942;
+
+  --main-page-background: #000000;
+
+  --link-color: #61dafb;
+  --link-color-2: #dbbaf0; /*i think i prefer this one
+  --button-hover: #AD0624; /*jet- i dont really like this color lol i thikn this was a tmepoarary color that never got changed
+  --button-hover-gradient-2: #7a4332; /*who made the register button 
+
+  --main-font-color: white; /*not changign this
+  --orange-font-color: #FF5E54; 
+
+  --main-shadows-1: rgb(49, 49, 49);
+  --main-shadows-2: rgba(37, 18, 18);
+  --secondary-shadows: rgba(143, 26, 26);
+
+  --accordian-border: #E0B8FF;
+
+  --hacktually-infobox: rgba(255, 255, 255, 0.5); /*have not changed these
+  --hacktually-info: rgba(255, 255, 255, 0.2); */
+  
+
+  /*HackMerced X Colors*/
+  --primary-purple: #663399;
+  --primary-orange: #C0593A; /*C0593A, FF7252*/
+  --lighter-orange: #CF8139; /*CF8139, FFA052*/
+
+  --secondary-red: #993392; /*linear gradient on navbar*/
+  --secondary-purple: #663399;
+
+  --main-page-background: #422162;
+
+  --primary-purple-transparent: #ff9fffb9;
+
+  --link-color: #C0FCFF;
+  --link-color-2: #ff9fff; /*i think i prefer this one*/
+  --button-hover: #FFA052; /*jet- i dont really like this color lol i thikn this was a tmepoarary color that never got changed*/
+  --button-hover-gradient-2: #FF7252; /*who made the register button */
+
+  --main-white: white; /*not changign this*/
+  --orange-font-color: #FFA052; 
+
+  --main-shadows-1: rgb(49, 49, 49);
+  --main-shadows-2: rgba(37, 18, 18);
+  --secondary-shadows: rgba(143, 26, 26);
+
+  --accordian-border: #E0B8FF;
+
+  --hacktually-infobox: rgba(255, 255, 255, 0.5); /*have not changed these*/
+  --hacktually-info: rgba(255, 255, 255, 0.2);
+
+  --font-family: 'Rajdhani';
+
+}
 
 .html{
   overflow-y: hidden;
 }
 .App {
   min-height: 100vh;
-  font-family: 'K2D';
+  font-family: var(--font-family);
 }
 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
+  color: var(--link-color);
 }
 
 a {
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
 }
 
 .Tracks, .About-HM{
-  background: radial-gradient(50% 50% at 50% 50%, #CF8139, #C0593A, #342153);
+  /* background: radial-gradient(50% 50% at 50% 50%, #CF8139, #C0593A, #342153); */
+  background: radial-gradient(50% 50% at 50% 50%, var(--lighter-orange), var(--primary-orange), var(--primary-purple));
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
-  color:white;
+  /* color:white; */
+  color: var(--main-white);
   height: fit-content;
   max-width: 100vw;
   align-items: center;
@@ -33,7 +103,7 @@ a {
 }
 .Tracks-title, .About-HM-Title, .Hacktually-title {
   margin-top: 0;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight:bold;
   margin-bottom: 2em;
   margin-left: 11%;
@@ -48,8 +118,10 @@ a {
   padding-top: 1rem;
 }
 .Track-Card, .About-HM-Desc, .Team-photo{
-  box-shadow: inset rgb(49, 49, 49) 0px 0px 60px -12px;
-  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
+  /* box-shadow: inset rgb(49, 49, 49) 0px 0px 60px -12px; */
+  box-shadow: inset var(--main-shadows-1) 0px 0px 60px -12px;
+  /* background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%); */
+  background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
 
   width: 20vw;
   padding:2em;
@@ -57,30 +129,34 @@ a {
   margin:1em;
   margin-bottom: 5vh;
   margin-top: 20vh;
-  border-image: linear-gradient(180deg,#342153, #C0593A, #CF8139) 30 / 1rem;
+  /* border-image: linear-gradient(180deg,#342153, #C0593A, #CF8139) 30 / 1rem; */
+  border-image: linear-gradient(180deg,var(--primary-purple), var(--primary-orange), var(--lighter-orange)) 30 / 1rem;
   border-style: groove;
   border-radius: 0 !important;
   position: relative;
 }
 .Tracks-Flex .css-1j74uew-MuiPaper-root-MuiCard-root {
-  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
+  background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
 }
 .Track-Name{
-  color:#FF5E54;
-  font-family: 'K2D';
+  /* color:#FF5E54; */
+  color: var(--orange-font-color);
+  font-family: var(--font-family);
 }
 .Track-Text, .About-HM-Text{
   padding-top: 2vh;
   margin:1vw;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-style: normal;
-  font-weight: 50;
+  font-weight: 400;
   font-size: 0.9em;
   text-align: center;
-  color:white;
+  /* color:white; */
+  color: var(--main-white);
 }
 .Track-Logo{
-  filter: drop-shadow(0px 0px 10px #FF5E54);
+  /* filter: drop-shadow(0px 0px 10px #FF5E54); */
+  filter: drop-shadow(0px 0px 10px var(--orange-font-color));
   min-height: 10vh;
   width: 10vw;
   margin-top:5vh;
@@ -88,11 +164,13 @@ a {
 }
 .Sponsors{
   height:0;
-  background: radial-gradient(60% 45% at 50% 60%,#342153, #C0593A, #CF8139);
+  /* background: radial-gradient(60% 45% at 50% 60%,#342153, #C0593A, #CF8139); */
+  background: radial-gradient(60% 45% at 50% 60%,var(--primary-purple), var(--primary-orange), var(--lighter-orange)); 
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
-  color:white;
+  /* color:white; */
+  color: var(--main-white);
   height:fit-content;
   max-width: 100vw;
   align-items: center;
@@ -107,7 +185,7 @@ a {
 .Sponsors-Description{
   left: 10vw;
   position: absolute;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 1.2em;
@@ -116,7 +194,7 @@ a {
 }
 .Sponsors-title{
   margin-top: 0;
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: normal;
   padding-top: 3em;
   text-align: left;
@@ -128,7 +206,8 @@ a {
   align-items: center;
   justify-content: center;
   padding: 5em 0;
-  background: linear-gradient(180deg,#342153, #C0593A, #CF8139);
+  /* background: linear-gradient(180deg,#342153, #C0593A, #CF8139); */
+  background: linear-gradient(180deg,var(--primary-purple), var(--primary-orange), var(--lighter-orange));
 }
 
 .FAQ-container{
@@ -141,21 +220,24 @@ a {
 }
 
 .FAQ-container .title{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: normal;
   width: fit-content;
   margin-top: 0;
   margin-bottom: 3em;
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
 }
 
 .FAQ-accordion{
-  border: 2px solid #E0B8FF;
+  /* border: 2px solid #E0B8FF; */
+  border: 2px solid var(--accordian-border);
 }
 
 .FAQ-container .FAQ-accordion.MuiAccordion-root {
   border-radius: 1.875em;
-  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
+  /* background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%); */
+  background: linear-gradient(122.2deg, var(--secondary-purple) -0.42%, var(--secondary-red) 126.58%);
 }
 
 .FAQ-summary{
@@ -166,23 +248,26 @@ a {
   transform: rotate(90deg);
 }
 .accordion-link{
-  color: white; 
+  /* color: white;  */
+  color: var(--main-white);
 }
 
 .accordion-title{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: bold;
   font-size: 1em;
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
   text-align: left;
   margin: 0;
 }
 
 .accordion-description{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-style: normal;
   font-size: 0.9em;
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
   text-align: left;
   margin: 0;
 } 
@@ -202,7 +287,8 @@ a {
   display: flex;
   justify-content: flex-end;
   align-content: center;
-  background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%);
+  /* background: linear-gradient(122.2deg, #301942 -0.42%, #B01F69 126.58%); */
+  background: linear-gradient(122.2deg, var(--secondary-purple) -0.42%, var(--secondary-red) 126.58%);
   z-index: 2;
 }
 .nav-items{
@@ -212,7 +298,7 @@ a {
 }
 
 .nav-items .button, .nav-items .registerButton{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: bold;
   font-size: 1em;
   width:fit-content;
@@ -227,11 +313,14 @@ a {
   border: none;
   font-size: 1em;
   transition-duration: 0.4s;
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
 }
 .registerButton{
-  background-color: #342153;
-  border: 0.18rem solid #342153;
+  /* background-color: #342153; */
+  background-color: var(--primary-purple);
+  /* border: 0.18rem solid #342153; */
+  border: 0.18rem solid var(--primary-purple);
   border-radius: 3rem;
   padding:0.8rem;
   padding-bottom: 1rem;
@@ -239,22 +328,28 @@ a {
   text-align: center;
   font-size: 1em;
   transition-duration: 0.4s;
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
 }
 .button:hover{
-  color:#AD0624;
+  /* color:#AD0624; */
+  color: var(--button-hover);
   cursor: pointer;
 }
 .registerButton:hover{
-  background-color: #FFFFFF;
-  color:#AD0624;
-  border: 0.18rem solid #AD0624;
+  /* background-color: #FFFFFF; */
+  background-color: var(--main-white);
+  /* color:#AD0624; */
+  color: var(--button-hover);
+  /* border: 0.18rem solid #AD0624; */
+  border: 0.18rem solid var(--button-hover);
   cursor: pointer;
   transform: translate(0.1rem, -0.1rem);
 }
 
 .MainPage{
-  background-color: #000000; 
+  /* background-color: #000000;  */
+  background-color: var(--main-page-background);
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   display: flex;
@@ -265,13 +360,24 @@ a {
   overflow-x:hidden;
  justify-content: center;
 }
+
+.Main-hackmerced-tower{
+  /* border: red solid 3px; */
+  position: absolute;
+  top: 20%;
+  left: 3rem;
+  z-index: 0;
+}
+
 .Main-text-background{
   width: 100vw;
   height: 90vh;
   background-repeat: round;
   background-size: 100% 90%;
-  filter: drop-shadow(0px 0px 40px #FF5E54);
-  background-image: url('./Assets/background.png') ;
+  /* filter: drop-shadow(0px 0px 40px #FF5E54); */
+  filter: drop-shadow(0px 0px 40px var(--orange-font-color));
+  /* background-image: url('./Assets/background.png') ; */
+  background-image: url('./Assets/NewMainPageBackground.svg') ;
   transform: scale(90%);
 }
 .Main-text{
@@ -280,9 +386,12 @@ a {
   align-items: center;
   justify-content: center;
   height: inherit;
+  z-index: 2;
 }
 .Main-title{
-  color:#FFFFFF;
+  /* color:#FFFFFF; */
+  color: var(--main-white);
+  z-index: 2;
   transition-duration: 0.4s;
   animation: glide-in 0.2s ease-out 1;
 }
@@ -299,14 +408,20 @@ a {
 .Main-title:hover{
   transition-duration: 1s;
   transform: scale(103%);
-  filter: drop-shadow(0px 0px 10px #FF5E54) saturate(150%);
+  /* filter: drop-shadow(0px 0px 10px #FF5E54) saturate(150%); */
+  filter: drop-shadow(0px 0px 10px var(--orange-font-color)) saturate(150%);
 }
 .Main-subtitle{
-  color:#FFFFFF;
+  /* color:#FFFFFF; */
+  color: var(--main-white);
   display: flex;
   text-align: center;
   animation: glide-in 0.3s ease-out 1;
   margin: 1rem;
+  z-index: 2;
+  /* border: red 3px solid; */
+  /* background: var(--primary-purple-transparent);
+  padding: 1rem; */
 }
 .Main-sub2{
   font-style: small;
@@ -315,7 +430,11 @@ a {
   line-height: 31px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
+  color: var(--main-white);
+  z-index: 2;
+  /* border: blue 3px solid; */
+  /* background: var(--main-page-background); */
 }
 .Main-footer{
   font-style: normal;
@@ -324,8 +443,13 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
+  color: var(--main-white);
   animation: glide-in 0.5s ease-out 1;
+  z-index: 2;
+  /* border: green 3px solid; */
+  /* background: var(--primary-purple-transparent);
+  padding: 1rem; */
 }
 .Main-footerlink{
   font-style: normal;
@@ -334,10 +458,12 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #dbbaf0;
+  /* color: #dbbaf0; */
+  color: var(--link-color-2);
   padding-left: 5px;
   text-decoration: wavy;
   animation: glide-in 0.6s ease-out 1;
+  z-index: 2;
 }
 .emailEmoji{
   padding-left: 0.4rem;
@@ -345,7 +471,9 @@ a {
   animation: glide-in 0.7s ease-out 1;
 }
 .Main-footerlink:hover{
-  color: #B01F69;
+  /* color: #B01F69; */
+  color: var(--secondary-red);
+
   transition-duration: 0.4s;
 }
 .Main-footerlink:hover .emailEmoji{
@@ -355,13 +483,16 @@ a {
 }
 
 .registerButton2{
-  font-family: 'K2D';
+  font-family: var(--font-family);
   font-weight: bold;
   font-size: 2rem;
-  background-color: #342153; 
-  box-shadow: 17px 22px #C0593A;
+  /* background-color: #342153;  */
+  background-color: var(--primary-purple);
+  /* box-shadow: 17px 22px #C0593A; */
+  box-shadow: 17px 22px var(--primary-orange);
   border-radius: 100px;
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
   width: 50vw;
   height:10vh;
   transition-duration: .4s;
@@ -369,9 +500,12 @@ a {
   animation: glide-in 0.4s ease-out 1;
 }
 .registerButton2:hover{
-  background: linear-gradient(122.2deg, #301942 -0.42%, #7a4332 100%);
-  border: 0.18rem solid white;
-  color: #FFFFFF;
+  /* background: linear-gradient(122.2deg, #301942 -0.42%, #7a4332 100%); */
+  background: linear-gradient(122.2deg, var(--secondary-purple) -0.42%, var(--button-hover-gradient-2) 100%);
+  /* border: 0.18rem solid white; */
+  border: 0.18rem solid var(--main-white);
+  /* color: #FFFFFF; */
+  color: var(--main-white);
   cursor: pointer;
   transform: translate(0.1rem, 0.1rem);
   border: none;
@@ -383,7 +517,8 @@ a {
 }
 #star{
   /* display: none; */
-  color: white;
+  /* color: white; */
+  color: var(--main-white);
   filter:blur(0.1rem) opacity(0%);
   position: absolute;
   font-size: .5em;
@@ -488,14 +623,16 @@ a {
   position: relative;
   display: flex;
   padding-bottom: 2rem;
-  color: white;
-  font-family: 'K2D';
+  /* color: white; */
+  color: var(--main-white);
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 0.9em;
   max-width: 100vw;
   min-height: 33vh;
-  background: linear-gradient(180deg, #CC7F3A, #C0593A, #342153);
+  /* background: linear-gradient(180deg, #CC7F3A, #C0593A, #342153); */
+  background: linear-gradient(180deg, var(--lighter-orange), var(--primary-orange), var(--primary-purple));
 }
 .Footer-container{
   padding-top: 10vh;
@@ -528,14 +665,15 @@ a {
 }
 .Team-container .title{
     height: 10vh;
-    font-family: 'K2D';
+    font-family: var(--font-family);
     font-weight: normal;
     width: fit-content;
     margin-top: 0rem;
     position: absolute;
     top: -3.5rem;
     left: 1.5rem;
-    color: white;
+    /* color: white; */
+    color: var(--main-white);
 }
 .MuiGrid-root.MuiGrid-item{
   padding-left: none;
@@ -556,11 +694,13 @@ a {
   max-height: 20vh;
   max-width: 20vw;
   overflow: hidden;
-  filter: drop-shadow(0px 0px 10px #FF5E54) saturate(150%);
+  /* filter: drop-shadow(0px 0px 10px #FF5E54) saturate(150%); */
+  filter: drop-shadow(0px 0px 10px var(--orange-font-color)) saturate(150%);
 }
 .Team-Name{
-  color: #FFFFFF;
-  font-family: 'K2D';
+  /* color: #FFFFFF; */
+  color: var(--main-white);
+  font-family: var(--font-family);
 }
 /*CONTACT US*/
 .Contact-Us-container{
@@ -579,7 +719,8 @@ a {
   align-items: center;
 }
 .About-HM-Contents .css-1j74uew-MuiPaper-root-MuiCard-root{
-  background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%);
+  /* background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%); */
+  background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
 }
 
 
@@ -598,11 +739,13 @@ a {
 
 .Hacktually {
   /* border:1px solid white; */
-  background: radial-gradient(50% 50% at 50% 50%, #CF8139, #C0593A, #342153);
+  /* background: radial-gradient(50% 50% at 50% 50%, #CF8139, #C0593A, #342153); */
+  background: radial-gradient(50% 50% at 50% 50%, var(--lighter-orange), var(--primary-orange), var(--primary-purple));
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
-  color:white;
+  /* color:white; */
+  color: var(--main-white);
   height:100vh;
   max-width: 100vw;
   align-items: center;
@@ -664,6 +807,9 @@ a {
   .Main-video:-webkit-scrollbar {
     display: none;
    
+  }
+  .Main-hackmerced-tower{
+    opacity: 20%;
   }
   .Main-text-background{
     padding: inherit;
