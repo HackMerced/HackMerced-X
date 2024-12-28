@@ -17,7 +17,7 @@ function MainPage() {
                   <br/>
                   With your team create innovative projects! 
                   <br/>
-                  Join our workshops, connect with like minded students and win prizes!
+                  Explore our workshops, connect with like minded students and win prizes!
                 </p>
                 {/* <a className="registerButton2Stars" href="./#hacktually">
                   <button className="registerButton2">Learn more</button>
