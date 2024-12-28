@@ -718,6 +718,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+.css-q8lpi9 {
+  background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
+}
 .About-HM-Contents .css-1j74uew-MuiPaper-root-MuiCard-root{
   /* background: linear-gradient(170.14deg, rgba(37, 18, 18) 1.13%, rgba(143, 26, 26) 104.83%); */
   background: linear-gradient(170.14deg, var(--main-shadows-2) 1.13%, var(--secondary-shadows) 104.83%);
