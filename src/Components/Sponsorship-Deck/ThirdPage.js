@@ -71,7 +71,7 @@ const ThirdPage = () => {
                     </div>
                 </div>
             </div>
-            <span>If you have any questions regarding tiers and their benefits, please email general@hackmerced.com</span>
+            <span className='third-page-footer'>If you have any questions regarding tiers and their benefits, please email general@hackmerced.com</span>
         </section>
     )
 };

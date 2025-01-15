@@ -209,7 +209,7 @@
     flex-direction: column;
     background: linear-gradient(-80deg, #D77B26 5%, #C0593A, #342153);
     align-items: center;
-    padding: 25px 0 50px 0;
+    padding: 25px 0 0 0;
     overflow: hidden;
 }
 
@@ -225,12 +225,16 @@
 }
 
 .sponsor-tiers {
-    width: 100%;
+    width: 80%;
     height: 256px;
     color: #FFFF;
     font-family: var(--font-family);
     display: flex;
     align-items: center;
+    background-color: #1C0235;
+    opacity: 80%;
+    border-radius: 2rem;
+    margin-bottom: 2%;
 }
 
 .sponsor-tiers img {
@@ -277,7 +281,13 @@
     padding: 0 20px 0 20px;
 }
 
-
+.third-page-footer {
+    background-color: #1C0235;
+    width: 100%;
+    text-align: center;
+    padding: 5% 0;
+    opacity: 80%;
+}
 
 
 
