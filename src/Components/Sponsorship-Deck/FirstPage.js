@@ -1,7 +1,7 @@
 import React from 'react';
 import HackMercedTower from './assets/hackmerced-tower.png';
 import BackgroundBuildings from './assets/background-buildings.png';
-import { FaDiscord, FaInstagram } from "react-icons/fa6";
+import { FaDiscord, FaInstagram, FaEnvelope} from "react-icons/fa6";
 
 const FirstPage = () => {
     return (
@@ -14,6 +14,12 @@ const FirstPage = () => {
                 <img src={HackMercedTower} className='hackmerced-tower' alt="hack merced tower" />
                 <img src={BackgroundBuildings} className="background-buildings" alt="background buildings" />
                 <div className='text-contents first-box-text'>
+                    <a href='mailto:sponsors@hackmerced.com' className='first-page-links'>
+                        <div className='social-link first-page-link-0'>
+                            <FaEnvelope className='socials-logo' />
+                            <h2>Email Us</h2>
+                        </div>
+                    </a>
                     <a href='https://hackmerced.com/discord' className='first-page-links'>
                         <div className='social-link first-page-link-1'>
                             <FaDiscord className='socials-logo' />

@@ -17,6 +17,7 @@
     overflow: hidden;
     display: flex;
     position: relative;
+    /* outline: red solid 3px; */
 }
 
 .contain-gradients {
@@ -28,7 +29,7 @@
 .gradient1 {
     height: 100%;
     width: 100%;
-    background: linear-gradient(#6D0871, #FF5C01);
+    background: linear-gradient(#663399, #FF5C01);
     opacity: 100%;
     position: inherit;
 
@@ -36,7 +37,7 @@
 .gradient2 {
     height: 100%;
     width: 100%;
-    background: linear-gradient(-45deg, #D77B26, #C0593A, #342153);
+    background: linear-gradient(-45deg, #D77B26, #C0593A, #663399);
     opacity: 85%;
     position: inherit;
 }
@@ -44,7 +45,7 @@
 .gradient3 {
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg, #D77B26, #C0593A, #342153);
+    background: linear-gradient(45deg, #D77B26, #C0593A, #663399);
     opacity: 85%;
     position: inherit;
 }
@@ -110,10 +111,17 @@
 
 .first-page-links {
     text-decoration: none;
+    /* outline: red solid 3px;  */
+}
+
+.first-page-link-0 {
+    animation: slide-left 0.8s ease-in-out forwards;
+    /* border: blue solid 5px; */
 }
 
 .first-page-link-1 {
     animation: slide-left 1s ease-in-out forwards;
+    /* border: red solid 3px; */
 }
 
 .first-page-link-2 {
@@ -129,7 +137,7 @@
 .contain-second-page {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(#D77B26, #C0593A, #342153);
+    background: radial-gradient(#D77B26, #C0593A, #663399);
     align-items: center;
     padding: 25px 0 50px 0;
     overflow: hidden;
@@ -156,7 +164,7 @@
 }
 
 .second-page-text-box1 {
-    background: #342153;
+    background: #663399;
     height: 110%;
     width: 420px;
     position: absolute;
@@ -169,7 +177,7 @@
 }
 
 .second-page-text-box2 {
-    background: #342153;
+    background: #663399;
     height: 100%;
     width: 505px;
     position: absolute;
@@ -184,7 +192,7 @@
 }
 
 .second-page-text-box3 {
-    background: #342153;
+    background: #663399;
     height: 100%;
     width: 510px;
     position: absolute;
@@ -207,7 +215,7 @@
 .contain-third-page {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(-80deg, #D77B26 5%, #C0593A, #342153);
+    background: linear-gradient(-80deg, #D77B26 5%, #C0593A, #663399);
     align-items: center;
     padding: 25px 0 0 0;
     overflow: hidden;
