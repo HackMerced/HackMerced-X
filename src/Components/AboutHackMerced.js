@@ -1,5 +1,12 @@
-import TeamPhoto from '../Assets/team-photo.JPG';
+// import React from 'react'; // seems really redundant to have to
+// import this everywhere, need to look into for a fix
+import React from 'react';
+// import TeamPhoto from '../Assets/team-photo.JPG';
+import TeamPhoto from '..//Assets/Team/HM10Team/Team2.webp';
+
 import { Card } from '@mui/material';
+
+
 export default function AboutHackMerced(){
     return(
         <div className="About-HM">
@@ -17,7 +24,7 @@ export default function AboutHackMerced(){
                         culminating in the San Joaquin Valley.</div>
                         
                     </Card>
-                    <img className='Team-photo' src={TeamPhoto}/>
+                    <img className='Team-photo' src={TeamPhoto} alt="HackMerced Team"/>
                 </div>
             </div>
         </div>

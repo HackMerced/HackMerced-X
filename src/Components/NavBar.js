@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 import { Link } from 'react-router-dom'; // import Link
 
 function NavBar() {
@@ -8,7 +11,8 @@ function NavBar() {
           <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdsinPEX__G-Jr2kUgGIHNpwZyTA3VWYx4NPGU8X320Xa47rg/viewform"><button className="button" id="mentor-button">mentor</button></a></li>
           <li><Link to="/aboutus"><button className="button" id="about-us-button">about us</button></Link></li>
           <li><Link to="/contactus"><button className="button" id="contact-us-button">contact us</button></Link></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd7K6NUy1IWhxdTOlP_40LQLvO-9S1cIRlE_KQlPj6xkFf3dg/viewform?usp=sf_link"><button className="registerButton" id="register-button">Apply Now!</button></a></li>
+          <li><Link to="/sponsorus"><button className="button" id="sponsor-us-button">sponsor us</button></Link></li>
+          <li><a href="https://hackmerced.com/discord"><button className="registerButton" id="register-button">Join Our Discord</button></a></li>
         </ul>
             
       </div>
