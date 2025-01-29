@@ -371,7 +371,7 @@ a {
   position: absolute;
   top: 20%;
   left: 3rem;
-  z-index: 0;
+  z-index: -1;
 }
 
 .Main-text-background{
@@ -503,6 +503,7 @@ a {
   transition-duration: .4s;
   border: none;
   animation: glide-in 0.4s ease-out 1;
+  z-index: 10;
 }
 .registerButton2:hover{
   /* background: linear-gradient(122.2deg, #301942 -0.42%, #7a4332 100%); */
@@ -873,6 +874,7 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     height: 10vh;
     width: 15rem;
     font-size: x-large;
+    box-shadow: 10px 10px var(--primary-orange);
   }
   .Team-Flex, .About-HM-Contents{
     flex-direction: column;
