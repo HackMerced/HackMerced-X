@@ -1,5 +1,5 @@
 import React from 'react';
-import HackMercedTower from '../Assets/HackMercedTower.svg';
+import HackMercedTower from '../Assets/HackMercedTower.png';
 
 
 function MainPage() {
