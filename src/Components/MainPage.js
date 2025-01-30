@@ -19,7 +19,7 @@ function MainPage() {
                   <br/>
                   Explore our workshops, connect with like minded students and win prizes!
                 </p>
-                <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog">
+                {/* <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog">
                   <button className="registerButton2">Register Now!</button>
                   <div class="starWrapper">
                     <p class="star1" id="star">★</p>
@@ -31,7 +31,7 @@ function MainPage() {
                     <p class="starBurst2">⭐️</p>
                     <p class="starBurst3">🌟</p>
                   </div> 
-                </a>
+                </a> */}
 
                 <img src={HackMercedTower} className='Main-hackmerced-tower' alt='HackMerced X Tower'/>
                 <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji"><span role="img" aria-label="email">📧</span></p></a></p>

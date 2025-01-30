@@ -12,7 +12,7 @@ function NavBar() {
           <li><Link to="/aboutus"><button className="button" id="about-us-button">About Us</button></Link></li>
           <li><Link to="/contactus"><button className="button" id="contact-us-button">Contact Us</button></Link></li>
           <li><Link to="/sponsorus"><button className="button" id="sponsor-us-button">Sponsor Us</button></Link></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog"><button className="registerButton" id="register-button">Register</button></a></li>
+          <li><a href="https://hackmerced.com/discord"><button className="registerButton" id="register-button">Join Our Discord</button></a></li>
         </ul>
             
       </div>
