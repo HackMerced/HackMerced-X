@@ -60,14 +60,14 @@ function FAQ() {
           <Grid2 item size={6}>
             <FAQAccordion title='Where can I park?' description={<>'For a parking map resource, please see {<a href = "https://www.google.com/maps/d/u/0/edit?mid=1WERa2Y1r-rVHjKGyWQaXwaQ7C9iN7JU&usp=sharing">here</a>}. Parking on campus at UC Merced is free on weekends. On Friday, parking is free after 6 PM in the North Bowl, Scholars and Bellevue Lot - Green Zone lots. Parking is free after 8 PM in the Le Grand Lot, Library Lots 1 and 2 and Bellevue Lot - Gold Zone lots. Note that parking in the University Lot, Calaveras Lot, H Zones and specially marked spaces are prohibited at all times.'</>}/>
           </Grid2>
-          <Grid2 item size={6}>
+          {/* <Grid2 item size={6}>
             <FAQAccordion title='Can I participate if I’m in high school?' description='Yes! However, if you are under the age of 18 you must sign the waiver in our registration form with a parent or guardian. Additionally, you are not permitted to sleep in campus buildings overnight (we advise leaving and returning to campus during the day).'/>
+          </Grid2> */}
+          <Grid2 item size={6}>
+            <FAQAccordion title='How do I win free swag?' description='This year, HackMerced is proud to collaborate with Badger, an RFID-based attendance tracking system. When you participate in workshops or activities, simply scan the badge you obtain at check-in to earn points that can be redeemed for swag. Track points through live.hackmerced.com'/>
           </Grid2>
           <Grid2 item size={6}>
-            <FAQAccordion title='How do I win free swag?' description='This year, HackMerced is proud to present HackerPass, an RFID-based attendance tracking system. When you participate in workshops or activities, simply scan the badge you obtain at check-in to earn points that can be redeemed for swag.'/>
-          </Grid2>
-          <Grid2 item size={6}>
-            <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsinPEX__G-Jr2kUgGIHNpwZyTA3VWYx4NPGU8X320Xa47rg/viewform">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Porfirio Montoya at pmontoya2@ucmerced.edu</>}/>
+            <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsinPEX__G-Jr2kUgGIHNpwZyTA3VWYx4NPGU8X320Xa47rg/viewform">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Jet Lin at jlin276@ucmerced.edu</>}/>
           </Grid2>
           {/* <Grid2 item size={6}>
             <FAQAccordion title='When and where is the opening ceremony?' description={<>Our Check-in is on March 8th, 4:00pm.  Opening Ceremony is March 8th, 5:00pm. Both at UC Merced in building COB1 102. It will last about an hour. Hacking begins at 6pm for 36 hours. See a maps of the school and the buildings {<a href="https://registrar.ucmerced.edu/resources/maps">here</a>}</>}/>
@@ -87,7 +87,7 @@ function FAQ() {
           </FAQAccordion>
           </Grid2>
           <Grid2 item size={6}>
-          <FAQAccordion title='I have more questions!' description='Please join the HackMerced Community Discord server! If you have personal questions, feel free to open a ticket with us there. Please join our Discord at ' link='https://discord.gg/E5GsRt3jPs'>
+          <FAQAccordion title='I have more questions!' description='Please join the HackMerced Community Discord server! If you have personal questions, feel free to open a ticket with us there. Please join our Discord at ' link='https://hackmerced.com/discord'>
           </FAQAccordion>
           </Grid2>
         </Grid2>

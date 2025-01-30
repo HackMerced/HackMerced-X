@@ -12,7 +12,7 @@ function NavBar() {
           <li><Link to="/aboutus"><button className="button" id="about-us-button">about us</button></Link></li>
           <li><Link to="/contactus"><button className="button" id="contact-us-button">contact us</button></Link></li>
           <li><Link to="/sponsorus"><button className="button" id="sponsor-us-button">sponsor us</button></Link></li>
-          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog"><button className="registerButton" id="register-button">Apply Now!</button></a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog"><button className="registerButton" id="register-button">Register</button></a></li>
         </ul>
             
       </div>

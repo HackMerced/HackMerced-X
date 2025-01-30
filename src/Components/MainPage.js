@@ -20,7 +20,7 @@ function MainPage() {
                   Explore our workshops, connect with like minded students and win prizes!
                 </p>
                 <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog">
-                  <button className="registerButton2">Apply Now!</button>
+                  <button className="registerButton2">Register Now!</button>
                   <div class="starWrapper">
                     <p class="star1" id="star">★</p>
                     <p class="star2" id="star">★</p>
