@@ -1,5 +1,5 @@
 import React from 'react';
-import HackMercedTower from '../Assets/HackMercedTower.svg';
+import HackMercedTower from '../Assets/HackMercedTower.png';
 
 
 function MainPage() {
@@ -13,15 +13,15 @@ function MainPage() {
               <div className="Main-text">
                 <h1 className="Main-title">HackMerced X @ UC Merced</h1>
                 <p className="Main-subtitle">
-                  Join us at HackMerced February 28th to March 2nd!
+                  Join us at HackMerced March 7th 5:00pm to March 9th 12:00pm!
                   <br/>
-                  With your team create innovative projects, 
+                  With your team create innovative projects,
                   <br/>
-                  Explore our workshops, connect with like minded students and win prizes!
+                  Explore our workshops, connect with like minded students, and win prizes!
                 </p>
-                {/* <a className="registerButton2Stars" href="./#hacktually">
-                  <button className="registerButton2">Learn more</button>
-                  {/* <div class="starWrapper">
+                <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog">
+                  <button className="registerButton2">Register Now!</button>
+                  <div class="starWrapper">
                     <p class="star1" id="star">★</p>
                     <p class="star2" id="star">★</p>
                     <p class="star3" id="star">★</p>
@@ -31,7 +31,7 @@ function MainPage() {
                     <p class="starBurst2">⭐️</p>
                     <p class="starBurst3">🌟</p>
                   </div> 
-                </a> */}
+                </a>
 
                 <img src={HackMercedTower} className='Main-hackmerced-tower' alt='HackMerced X Tower'/>
                 <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji"><span role="img" aria-label="email">📧</span></p></a></p>
