@@ -15,7 +15,7 @@ function MainPage() {
                 <p className="Main-subtitle">
                   Join us at HackMerced February 28th to March 2nd!
                   <br/>
-                  With your team create innovative projects! 
+                  With your team create innovative projects, 
                   <br/>
                   Explore our workshops, connect with like minded students and win prizes!
                 </p>
