@@ -17,7 +17,7 @@ function MainPage() {
                   <br/>
                   With your team create innovative projects,
                   <br/>
-                  Explore our workshops, connect with like minded students and win prizes!
+                  Explore our workshops, connect with like minded students, and win prizes!
                 </p>
                 <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog">
                   <button className="registerButton2">Register Now!</button>
