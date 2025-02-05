@@ -1,13 +1,13 @@
 import React from 'react';
 import { Card } from "@mui/material";
-import Question from "../Assets/question.svg";
+//import Question from "../Assets/question.svg";
 import Health from "../Assets/health.svg";
 import Ag from "../Assets/ag.svg"
 import Bus from "../Assets/bus.svg";
 function Tracks() {
     return (
         <div className="Tracks" id="tracks">
-            <h2 className="Tracks-title">tracks</h2>
+            <h2 className="Tracks-title">HackMerced X Tracks</h2>
             <div className="Tracks-Flex">
                 {["Health"].map((title) => (
                     <Card
