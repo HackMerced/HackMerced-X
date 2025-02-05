@@ -329,11 +329,6 @@ a {
   border-radius: 3rem;
   padding:0.8rem;
   padding-bottom: 1rem;
-  /* padding-left: 1.8rem;
-  padding-right: 1.8rem; */
-  /* padding: 0.8rem 1.8rem 0.8rem 1.8rem; */
-
-  /* outline: red solid 3px; */
   width:8rem;
   text-align: center;
   font-size: 1em;
@@ -348,7 +343,7 @@ a {
 }
 .registerButton:hover{
   /* background-color: #FFFFFF; */
-  background-color: var(--main-page-background);
+  background-color: var(--main-white);
   /* color:#AD0624; */
   color: var(--button-hover);
   /* border: 0.18rem solid #AD0624; */
@@ -387,7 +382,7 @@ a {
   /* filter: drop-shadow(0px 0px 40px #FF5E54); */
   filter: drop-shadow(0px 0px 40px var(--orange-font-color));
   /* background-image: url('./Assets/background.png') ; */
-  background-image: url('./Assets/MainPageBackground.png') ;
+  background-image: url('./Assets/NewMainPageBackground.svg') ;
   transform: scale(90%);
 }
 .Main-text{
