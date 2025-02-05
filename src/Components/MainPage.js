@@ -13,11 +13,11 @@ function MainPage() {
               <div className="Main-text">
                 <h1 className="Main-title">HackMerced X @ UC Merced</h1>
                 <p className="Main-subtitle">
-                  Join us at HackMerced February 28th to March 2nd!
+                  Join us at HackMerced March 7th to March 9th!
                   <br/>
                   With your team create innovative projects, 
                   <br/>
-                  Explore our workshops, connect with like minded students and win prizes!
+                  explore our workshops, connect with like minded students and win prizes!
                 </p>
                 {/* <a className="registerButton2Stars" href="./#hacktually">
                   <button className="registerButton2">Learn more</button>
