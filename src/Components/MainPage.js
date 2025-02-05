@@ -13,9 +13,9 @@ function MainPage() {
               <div className="Main-text">
                 <h1 className="Main-title">HackMerced X @ UC Merced</h1>
                 <p className="Main-subtitle">
-                  Join us at HackMerced February 28th to March 2nd!
+                  Join us at HackMerced March 7th 5:00pm to March 9th 12:00pm!
                   <br/>
-                  With your team create innovative projects! 
+                  With your team create innovative projects,
                   <br/>
                   Explore our workshops, connect with like minded students and win prizes!
                 </p>
