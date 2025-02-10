@@ -8,10 +8,10 @@ import Sponsors from '../Sponsors';
 const SponsorshipDeck = () => {
     return (
         <>
-            <Sponsors />
             <FirstPage />
             <SecondPage />
             <ThirdPage />
+            <Sponsors />
         </>
     )
 };
