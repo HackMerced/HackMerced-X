@@ -1,7 +1,10 @@
 import React from 'react';
 
 
-import SponsorLogo from '../Assets/sponsor_logos.png';
+// import SponsorLogo from '../Assets/sponsor_logos.png';
+
+import SponsorLogo from '../Assets/SponsorsCollage.png';
+
 
 function Sponsors() {
     return (
