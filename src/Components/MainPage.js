@@ -8,7 +8,6 @@ function MainPage() {
   // }
     return (
       <div className="MainPage">
-
             <div className="Main-text-background">
               <div className="Main-text">
                 <h1 className="Main-title">HackMerced X @ UC Merced</h1>
