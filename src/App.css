@@ -716,6 +716,9 @@ a {
 .About-HM-Title{
   padding-top: 4em;
 }
+.archive-Container{
+  display: inherit;
+}
 .About-HM-Contents{
   display:flex;
 }
@@ -805,6 +808,9 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
 .Hacktually-info:nth-of-type(even):hover { border-radius:40% 25% 85%; }
 .Hacktually-info:nth-of-type(odd):hover { border-radius:85% 40% 25%; }
 
+.burger-button{
+  display: none;
+}
 
 /*MOBILE VIEWPORTS*/
 @media screen and (min-width: 300px) and (max-width: 880px) {
@@ -1002,5 +1008,110 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     row-gap: 8vw;
     margin:5vw 0 0 8vw;
     font-size:1em;
+  }
+
+  /*Burger menu chaos from Brandon*/
+  .burger-buttons {
+    display: inherit;
+  }
+  .burger-buttons .menu-buttons {
+    list-style-type: none;
+  }
+  nav {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    padding: 1em;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  .burger-menu {
+      height: 100%;
+      width: 4em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      z-index: 1;
+      margin-right: 40px;
+      margin-top: 13px;
+  }
+  .burger-bar {
+      width: 4em;
+      height: 0.5em;
+      background-color: white;
+      float: right;
+      position: relative;
+  }
+  .menu {
+      background: linear-gradient(180deg, #693499, #8B3494);
+      width: 100%;
+      height:fit-content;
+      background-color: black;
+      top: 0;
+      z-index: 0 !important;
+      position: absolute;
+      padding-top: 50px;
+      padding-bottom: 30px;
+  }
+  .burger-button {
+      background-color: transparent;
+      font-size: 2em;
+      /* font-size: clamp(5vw, 6vw, 8vw); */
+      font-weight: 1000;
+      text-align: center;
+      font-family: 'Rajdhani', 'sans-serif';
+      padding: 1rem 7rem;
+      padding: 1rem clamp(1rem, 7rem, 7rem);
+      margin: 0rem;
+      margin-bottom: 0rem;
+      color: white;
+      border-radius: 0px;
+      /* outline: red solid 3px; */
+  }
+  .burger-bar.clicked:nth-child(1){
+      transform: rotate(45deg) translate(0.75em, 1.25em);
+  }
+  .burger-bar.clicked:nth-child(2){
+      transform: scale(0.1);
+  }
+  .burger-bar.clicked:nth-child(3){
+      transform: rotate(135deg) translate(-0.5em, 1em);
+  }
+  .burger-bar.unclicked {
+      transform: rotate(0) translate(0);
+  }
+  .hidden {
+    display: none;
+  }
+  .visible {
+    display: inherit;
+  }
+  .nav-items .button {
+    display: none;
+  }
+}
+
+
+/* Extra extra small devices (very small phones, 480px and down) */
+@media (max-width: 414px) {
+  .menu-buttons{
+      display: flex;
+      transform: translateX(-10%);
+      font-size: 1.3em;
+  }
+}
+@media (max-width: 375px) {
+  .menu-buttons{
+      display: flex;
+      transform: translateX(-15%);
+      font-size: 1.2em;
+  }
+}
+@media (max-width: 320px) {
+.menu-buttons{
+    display: flex;
+    transform: translateX(-20%);
+    font-size: 0.9em;
   }
 }

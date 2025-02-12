@@ -11,8 +11,11 @@ export default function AboutHackMerced(){
     return(
         <div className="About-HM">
             <div className="About-HM-Container">
-                <h2 className='About-HM-Title'>about hackmerced</h2>
-                <div className="About-HM-Contents">
+                <h2 className='About-HM-Title'>About HackMerced</h2>
+                <div className="archive-Container"><a href="archive.hackmerced.com">
+                <button className="registerButton2">Celebrate the 10 year anniversary of HackMerced!</button>
+                </a></div>
+                <div className="About-HM-Contents"> 
                     <Card className="About-HM-Desc">
                         <div className="About-HM-Text">HackMerced is a 36-hour hackathon hosted at the
                         University of California, Merced by an organization
@@ -22,7 +25,6 @@ export default function AboutHackMerced(){
                         We aim to create a collaborative and interdisciplinary
                         environment that showcases the creativity and innovation
                         culminating in the San Joaquin Valley.</div>
-                        
                     </Card>
                     <img className='Team-photo' src={TeamPhoto} alt="HackMerced Team"/>
                 </div>
