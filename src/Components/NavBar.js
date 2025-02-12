@@ -1,11 +1,12 @@
 import React from 'react';
-
+import Hamburger from './hamburger';
 
 import { Link } from 'react-router-dom'; // import Link
 
 function NavBar() {
     return (
       <div className="NavBar">
+        <Hamburger />
         <ul className="nav-items">
           <li><a href="/"><button className="button" id="sponsors-button">Home</button></a></li>
           <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdsinPEX__G-Jr2kUgGIHNpwZyTA3VWYx4NPGU8X320Xa47rg/viewform"><button className="button" id="mentor-button">Mentor</button></a></li>
