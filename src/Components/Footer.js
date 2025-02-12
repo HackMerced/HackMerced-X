@@ -22,6 +22,9 @@ function Footer() {
                 Made with &#9829; by the HackMerced team
                 <br/>
                 <br/>
+                Sponsored by MLH - view the <a href="https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md">Code of Conduct</a>
+                <br/>
+                <br/>
                 University of California, Merced
                 <br/>
                 5200 Lake Rd

@@ -24,7 +24,10 @@ export default function AboutHackMerced(){
                         experience in computer science, are invited to participate.
                         We aim to create a collaborative and interdisciplinary
                         environment that showcases the creativity and innovation
-                        culminating in the San Joaquin Valley.</div>
+                        culminating in the San Joaquin Valley.
+                        <br/><br/>
+                        Celebrating 10 years of HackMerced! View our previous iterations here: <a href="https://archives.hackmerced.com/">HackMerced Archives</a>
+                        </div>
                     </Card>
                     <img className='Team-photo' src={TeamPhoto} alt="HackMerced Team"/>
                 </div>

@@ -3,7 +3,7 @@ import MainPage from './MainPage.js';
 import Tracks from './Tracks.js';
 import FAQ from './FAQ.js';
 // import Hacktually from './Hacktually.js';
-// import Sponsors from './Sponsors.js';
+import Sponsors from './Sponsors.js';
 
 function HomePage() {
   return (
@@ -12,7 +12,7 @@ function HomePage() {
       {/* <Hacktually/> */}
       <Tracks/>
       <FAQ/>
-      {/* <Sponsors/> */}
+      <Sponsors/>
     </div>
   );
 }
