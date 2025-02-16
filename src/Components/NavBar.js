@@ -15,7 +15,6 @@ function NavBar() {
           <li><Link to="/sponsorus"><button className="button" id="sponsor-us-button">Sponsor Us</button></Link></li>
           <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog"><button className="registerButton" id="register-button">Register Now</button></a></li>
         </ul>
-            
       </div>
     );
   }

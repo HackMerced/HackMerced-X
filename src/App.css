@@ -300,6 +300,7 @@ a {
   display: flex;
   align-items: center;
   margin-top: 0.8rem;
+  white-space: nowrap;
 }
 
 .nav-items .button, .nav-items .registerButton{
@@ -808,8 +809,12 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
 .Hacktually-info:nth-of-type(even):hover { border-radius:40% 25% 85%; }
 .Hacktually-info:nth-of-type(odd):hover { border-radius:85% 40% 25%; }
 
-.burger-button{
+/* .burger-button{
   display: none;
+} */
+
+.menu-buttons ul li{
+  list-style-type: none;
 }
 
 /*MOBILE VIEWPORTS*/
@@ -1014,9 +1019,9 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   .burger-buttons {
     display: inherit;
   }
-  .burger-buttons .menu-buttons {
+  /* .burger-buttons .menu-buttons {
     list-style-type: none;
-  }
+  } */
   nav {
     width: 100%;
     height: 3em;
@@ -1027,17 +1032,16 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   }
   .burger-menu {
       height: 100%;
-      width: 4em;
+      width: 3.5em;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       cursor: pointer;
       z-index: 1;
-      margin-right: 40px;
-      margin-top: 13px;
+      margin-right: -185px;
   }
   .burger-bar {
-      width: 4em;
+      width: 3.5em;
       height: 0.5em;
       background-color: white;
       float: right;
@@ -1055,20 +1059,21 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
       padding-bottom: 30px;
   }
   .burger-button {
-      background-color: transparent;
-      font-size: 2em;
-      /* font-size: clamp(5vw, 6vw, 8vw); */
-      font-weight: 1000;
-      text-align: center;
-      font-family: 'Rajdhani', 'sans-serif';
-      padding: 1rem 7rem;
-      padding: 1rem clamp(1rem, 7rem, 7rem);
-      margin: 0rem;
-      margin-bottom: 0rem;
-      color: white;
-      border-radius: 0px;
-      /* outline: red solid 3px; */
-  }
+    border-style: none;
+    background-color: transparent;
+    font-size: 2em;
+    /* font-size: clamp(5vw, 6vw, 8vw); */
+    font-weight: 1000;
+    text-align: right;
+    font-family: 'Rajdhani', 'sans-serif';
+    padding: 1rem 7rem;
+    padding: 1rem clamp(1rem, 7rem, 7rem);
+    margin: 0rem;
+    margin-bottom: 0rem;
+    color: white;
+    border-radius: 0px;
+    /* outline: red solid 3px; */
+}
   .burger-bar.clicked:nth-child(1){
       transform: rotate(45deg) translate(0.75em, 1.25em);
   }
@@ -1087,8 +1092,27 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   .visible {
     display: inherit;
   }
-  .nav-items .button {
+  #sponsors-button {
     display: none;
+  }
+  #mentor-button {
+    display: none;
+  }
+  #about-us-button {
+    display: none;
+  }
+  #contact-us-button {
+    display: none;
+  }
+  #sponsor-us-button {
+    display: none;
+  }
+  .mlh-banner {
+    position: absolute;
+    margin-left: 50px;
+  }
+  .registerButton{
+    margin-right: 100px;
   }
 }
 
