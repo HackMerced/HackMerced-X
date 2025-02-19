@@ -11,8 +11,8 @@ export default function AboutHackMerced(){
     return(
         <div className="About-HM">
             <div className="About-HM-Container">
-                <h2 className='About-HM-Title'>about hackmerced</h2>
-                <div className="About-HM-Contents">
+                <h2 className='About-HM-Title'>About HackMerced</h2>
+                <div className="About-HM-Contents"> 
                     <Card className="About-HM-Desc">
                         <div className="About-HM-Text">HackMerced is a 36-hour hackathon hosted at the
                         University of California, Merced by an organization
@@ -25,7 +25,6 @@ export default function AboutHackMerced(){
                         <br/><br/>
                         Celebrating 10 years of HackMerced! View our previous iterations here: <a href="https://archives.hackmerced.com/">HackMerced Archives</a>
                         </div>
-                        
                     </Card>
                     <img className='Team-photo' src={TeamPhoto} alt="HackMerced Team"/>
                 </div>

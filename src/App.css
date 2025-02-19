@@ -300,6 +300,7 @@ a {
   display: flex;
   align-items: center;
   margin-top: 0.8rem;
+  white-space: nowrap;
 }
 
 .nav-items .button, .nav-items .registerButton{
@@ -716,6 +717,9 @@ a {
 .About-HM-Title{
   padding-top: 4em;
 }
+.archive-Container{
+  display: inherit;
+}
 .About-HM-Contents{
   display:flex;
 }
@@ -805,6 +809,13 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
 .Hacktually-info:nth-of-type(even):hover { border-radius:40% 25% 85%; }
 .Hacktually-info:nth-of-type(odd):hover { border-radius:85% 40% 25%; }
 
+.menu-buttons ul li{
+  list-style-type: none;
+}
+
+.menu-buttons {
+  display: none;
+}
 
 /*MOBILE VIEWPORTS*/
 @media screen and (min-width: 300px) and (max-width: 880px) {
@@ -1002,5 +1013,155 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     row-gap: 8vw;
     margin:5vw 0 0 8vw;
     font-size:1em;
+  }
+
+  /*Burger menu chaos from Brandon*/
+  .burger-buttons {
+    display: inherit;
+  }
+  #burger-home #burger-about #burger-contact #burger-sponsor {
+    display: none;
+  }
+
+  .menu-buttons {
+    display: flex;
+  }
+  nav {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    padding: 1em;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  .burger-menu {
+      height: 100%;
+      width: 3.5em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      z-index: 9999;
+      margin-right: -185px;
+  }
+  .burger-bar {
+      width: 3.5em;
+      height: 0.5em;
+      background-color: var(--main-white);
+      float: right;
+      position: relative;
+  }
+  .menu {
+      background: linear-gradient(180deg, #693499, #8B3494);
+      width: 100%;
+      height:fit-content;
+      background-color: black;
+      top: 0;
+      z-index: 9998 !important;
+      position: absolute;
+      padding-top: 50px;
+      padding-bottom: 30px;
+  }
+  .burger-button {
+    border-style: none;
+    background-color: transparent;
+    font-size: 2em;
+    font-weight: 1000;
+    text-align: center;
+    font-family: 'Rajdhani', 'sans-serif';
+    padding: 1rem 7rem;
+    padding: 1rem clamp(1rem, 7rem, 7rem);
+    margin: 0rem;
+    justify-content: center;
+    margin-bottom: 0rem;
+    color: white;
+    border-radius: 0px;
+    text-indent: 100px;
+}
+  .burger-bar.clicked:nth-child(1){
+      transform: rotate(45deg) translate(0.75em, 1.25em);
+      transition-duration: 0.4s;
+      background-color: var(--primary-purple-transparent);
+  }
+  .burger-bar.clicked:nth-child(2){
+      transform: scale(0.1);
+      transition-duration: 0.4s;
+  }
+  .burger-bar.clicked:nth-child(3){
+      transform: rotate(135deg) translate(-0.5em, 1em);
+      transition-duration: 0.4s;
+      background-color: var(--button-hover);
+  }
+  .burger-bar.unclicked {
+      transform: rotate(0) translate(0);
+      transition-duration: 0.4s;
+ 
+  }
+  .hidden {
+    display: none;
+  }
+  .visible {
+    display: inherit;
+  }
+  #sponsors-button {
+    display: none;
+  }
+  #mentor-button {
+    display: none;
+  }
+  #about-us-button {
+    display: none;
+  }
+  #contact-us-button {
+    display: none;
+  }
+  #sponsor-us-button {
+    display: none;
+  }
+  #burger-home #burger-about #burger-contact #burger-sponsor {
+    display: inherit;
+  }
+  .mlh-banner {
+    position: absolute;
+    margin-left: 50px;
+  }
+  .registerButton{
+    margin-right: 100px;
+  }
+}
+
+
+/* Extra extra small devices (very small phones, 480px and down) */
+@media (max-width: 414px) {
+  .menu-buttons{
+      display: flex;
+      transform: translateX(-10%);
+      font-size: 1.3em;
+  }
+  .burger-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 375px) {
+  .menu-buttons{
+      display: flex;
+      transform: translateX(-15%);
+      font-size: 1.2em;
+  }
+  .burger-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 320px) {
+.menu-buttons{
+    display: flex;
+    transform: translateX(-20%);
+    font-size: 0.9em;
+  }
+  .burger-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
