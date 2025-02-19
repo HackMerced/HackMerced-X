@@ -58,12 +58,12 @@
     left: 100px;
     animation: pop-up .8s ease-in-out forwards;
     /*animation: bop 4s ease-in-out infinite;*/
-    z-index: 1001;
+    z-index: 2;
 }
 
 .background-buildings {
     object-fit: cover;
-    z-index: 1000;
+    z-index: 1;
     position: absolute;
     right: -50px;
 }
@@ -71,13 +71,13 @@
 .background-buildings2 {
     position: absolute;
     object-fit: cover;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .text-contents {
     display: flex;
     flex-direction: column;
-    z-index: 1001;
+    z-index: 1;
     color: #FFFF;
     font-family: var(--font-family);
     position: absolute;

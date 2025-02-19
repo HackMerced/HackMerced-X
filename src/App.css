@@ -809,12 +809,12 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
 .Hacktually-info:nth-of-type(even):hover { border-radius:40% 25% 85%; }
 .Hacktually-info:nth-of-type(odd):hover { border-radius:85% 40% 25%; }
 
-/* .burger-button{
-  display: none;
-} */
-
 .menu-buttons ul li{
   list-style-type: none;
+}
+
+.menu-buttons {
+  display: none;
 }
 
 /*MOBILE VIEWPORTS*/
@@ -1019,9 +1019,16 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   .burger-buttons {
     display: inherit;
   }
+  #burger-home #burger-about #burger-contact #burger-sponsor {
+    display: none;
+  }
+
   /* .burger-buttons .menu-buttons {
     list-style-type: none;
   } */
+  .menu-buttons {
+    display: inline;
+  }
   nav {
     width: 100%;
     height: 3em;
@@ -1037,7 +1044,7 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
       flex-direction: column;
       justify-content: space-between;
       cursor: pointer;
-      z-index: 1;
+      z-index: 9999;
       margin-right: -185px;
   }
   .burger-bar {
@@ -1053,7 +1060,7 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
       height:fit-content;
       background-color: black;
       top: 0;
-      z-index: 0 !important;
+      z-index: 9998 !important;
       position: absolute;
       padding-top: 50px;
       padding-bottom: 30px;
@@ -1062,18 +1069,21 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     border-style: none;
     background-color: transparent;
     font-size: 2em;
-    /* font-size: clamp(5vw, 6vw, 8vw); */
     font-weight: 1000;
-    text-align: right;
+    text-align: center;
     font-family: 'Rajdhani', 'sans-serif';
     padding: 1rem 7rem;
     padding: 1rem clamp(1rem, 7rem, 7rem);
     margin: 0rem;
+    justify-content: center;
+    margin-left: 100px;
     margin-bottom: 0rem;
     color: white;
     border-radius: 0px;
-    /* outline: red solid 3px; */
 }
+  .burger-button button {
+    text-indent: 500px;
+  }
   .burger-bar.clicked:nth-child(1){
       transform: rotate(45deg) translate(0.75em, 1.25em);
   }
@@ -1106,6 +1116,9 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   }
   #sponsor-us-button {
     display: none;
+  }
+  #burger-home #burger-about #burger-contact #burger-sponsor {
+    display: inherit;
   }
   .mlh-banner {
     position: absolute;

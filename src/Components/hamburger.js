@@ -39,10 +39,10 @@ const Hamburger = () => {
             <div className={menu_class}>
                 <div className="menu-buttons">
                     <ul>
-                        <li><Link to="/"><button className="burger-button" id="about-us-button" onClick={closeMenu}>Home</button></Link></li> 
-                        <li><Link to="/aboutus"><button className="burger-button" id="about-us-button" onClick={closeMenu}>About US</button></Link></li> 
-                        <li><Link to="/contactus"><button className="burger-button" id="schedule-button" onClick={closeMenu}>Contact Us</button></Link></li> 
-                        <li><Link to="/sponsorus"><button className="burger-button" id="punch-card-button" onClick={closeMenu}>Sponsor Us</button></Link></li>
+                        <li><Link to="/"><button className="burger-button" id="burger-home" onClick={closeMenu}>Home</button></Link></li> 
+                        <li><Link to="/aboutus"><button className="burger-button" id="burger-about" onClick={closeMenu}>About US</button></Link></li> 
+                        <li><Link to="/contactus"><button className="burger-button" id="burger-contact" onClick={closeMenu}>Contact Us</button></Link></li> 
+                        <li><Link to="/sponsorus"><button className="burger-button" id="burger-sponsor" onClick={closeMenu}>Sponsor Us</button></Link></li>
                     </ul>
                 </div>
             </div>
