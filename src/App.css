@@ -1023,11 +1023,8 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     display: none;
   }
 
-  /* .burger-buttons .menu-buttons {
-    list-style-type: none;
-  } */
   .menu-buttons {
-    display: inline;
+    display: flex;
   }
   nav {
     width: 100%;
@@ -1076,14 +1073,11 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     padding: 1rem clamp(1rem, 7rem, 7rem);
     margin: 0rem;
     justify-content: center;
-    margin-left: 100px;
     margin-bottom: 0rem;
     color: white;
     border-radius: 0px;
+    text-indent: 100px;
 }
-  .burger-button button {
-    text-indent: 500px;
-  }
   .burger-bar.clicked:nth-child(1){
       transform: rotate(45deg) translate(0.75em, 1.25em);
   }
