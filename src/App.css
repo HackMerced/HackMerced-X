@@ -1047,7 +1047,7 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   .burger-bar {
       width: 3.5em;
       height: 0.5em;
-      background-color: white;
+      background-color: var(--main-white);
       float: right;
       position: relative;
   }
@@ -1080,15 +1080,22 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
 }
   .burger-bar.clicked:nth-child(1){
       transform: rotate(45deg) translate(0.75em, 1.25em);
+      transition-duration: 0.4s;
+      background-color: var(--primary-purple-transparent);
   }
   .burger-bar.clicked:nth-child(2){
       transform: scale(0.1);
+      transition-duration: 0.4s;
   }
   .burger-bar.clicked:nth-child(3){
       transform: rotate(135deg) translate(-0.5em, 1em);
+      transition-duration: 0.4s;
+      background-color: var(--button-hover);
   }
   .burger-bar.unclicked {
       transform: rotate(0) translate(0);
+      transition-duration: 0.4s;
+ 
   }
   .hidden {
     display: none;
@@ -1131,6 +1138,10 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
       transform: translateX(-10%);
       font-size: 1.3em;
   }
+  .burger-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 @media (max-width: 375px) {
   .menu-buttons{
@@ -1138,11 +1149,19 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
       transform: translateX(-15%);
       font-size: 1.2em;
   }
+  .burger-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 @media (max-width: 320px) {
 .menu-buttons{
     display: flex;
     transform: translateX(-20%);
     font-size: 0.9em;
+  }
+  .burger-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
