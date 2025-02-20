@@ -1,15 +1,18 @@
 import React from 'react';
 import { Card } from "@mui/material";
 //import Question from "../Assets/question.svg";
-import Health from "../Assets/health.svg";
-import Ag from "../Assets/ag.svg"
-import Bus from "../Assets/bus.svg";
+// import Health from "../Assets/health.svg";
+// import Ag from "../Assets/ag.svg"
+// import Bus from "../Assets/bus.svg";
+import Health from "../Assets/question.svg";
+import Ag from "../Assets/question.svg"
+import Bus from "../Assets/question.svg";
 function Tracks() {
     return (
         <div className="Tracks" id="tracks">
             <h2 className="Tracks-title">HackMerced X Tracks</h2>
             <div className="Tracks-Flex">
-                {["Health"].map((title) => (
+                {["Coming Soon"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
@@ -23,7 +26,7 @@ function Tracks() {
                         <div className="Track-Text"></div>
                     </Card>
                 ))}
-                {["Agriculture"].map((title) => (
+                {["Coming Soon"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
@@ -37,7 +40,7 @@ function Tracks() {
                         <div className="Track-Text"></div>
                     </Card>
                 ))}
-                {["Business"].map((title) => (
+                {["Coming Soon"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
