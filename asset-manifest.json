@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.9dce395c.css",
-    "main.js": "/static/js/main.842b05ae.js",
+    "main.js": "/static/js/main.ecb99737.js",
     "static/js/496.c7c76753.chunk.js": "/static/js/496.c7c76753.chunk.js",
     "static/media/NewMainPageBackground.svg": "/static/media/NewMainPageBackground.cd8f8baad42e3d782cd6.svg",
-    "static/media/SponsorsCollage.png": "/static/media/SponsorsCollage.b26695918c55d9e9c78c.png",
     "static/media/akhil.JPG": "/static/media/akhil.2da83b52a10f3f4d234d.JPG",
+    "static/media/SponsorsCollage.png": "/static/media/SponsorsCollage.dcb671ad749e970cf0fd.png",
     "static/media/shyam.JPG": "/static/media/shyam.ab4a0d3e5458068b8f2e.JPG",
     "static/media/lauren.jpg": "/static/media/lauren.5e02914aa3521f325759.jpg",
     "static/media/background-buildings.png": "/static/media/background-buildings.5a49afed817462164433.png",
@@ -34,11 +34,11 @@
     "static/media/Vector 1.svg": "/static/media/Vector 1.585114fdd7b0cd96479f326eeaccf89f.svg",
     "static/media/arrow_right.svg": "/static/media/arrow_right.797afb4bb4bfd0b5293bba1cdb904dd4.svg",
     "main.9dce395c.css.map": "/static/css/main.9dce395c.css.map",
-    "main.842b05ae.js.map": "/static/js/main.842b05ae.js.map",
+    "main.ecb99737.js.map": "/static/js/main.ecb99737.js.map",
     "496.c7c76753.chunk.js.map": "/static/js/496.c7c76753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9dce395c.css",
-    "static/js/main.842b05ae.js"
+    "static/js/main.ecb99737.js"
   ]
 }
