@@ -12,7 +12,7 @@ function Tracks() {
         <div className="Tracks" id="tracks">
             <h2 className="Tracks-title">HackMerced X Tracks</h2>
             <div className="Tracks-Flex">
-                {["Coming Soon"].map((title) => (
+                {["Health for Social Good by CITRIS"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
@@ -26,7 +26,7 @@ function Tracks() {
                         <div className="Track-Text"></div>
                     </Card>
                 ))}
-                {["Coming Soon"].map((title) => (
+                {["AgTech by VISTA F3"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
@@ -40,7 +40,7 @@ function Tracks() {
                         <div className="Track-Text"></div>
                     </Card>
                 ))}
-                {["Coming Soon"].map((title) => (
+                {["Business and Finance by Letta"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
