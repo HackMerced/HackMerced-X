@@ -1109,6 +1109,9 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   #mentor-button {
     display: none;
   }
+  #hackmerced-live-button {
+    display: none;
+  }
   #about-us-button {
     display: none;
   }
